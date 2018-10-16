@@ -7,7 +7,7 @@
 	</head>
 	<body>
 			<div id="logo">
-			<img src="image/logo.png" \>
+			<img src="image/logo.png" alt="logo"\>
 		</div>
 	<div id="mainBody">
 
@@ -26,11 +26,30 @@
 			</ul>
 			</div>
 		</div>
-		<div id="loginButton">	
+		<div id="loginButton">
+			<div class="buttonTextStyle">
+				<a href="login.php">Login</a>
+			</div>
 		</div>
 		<div id="searchFunction">
+			<div class="newsTextStyle">
+				<p>Vind jouw opleiding:
+						<select>
+					<option value="meme">Meme</option>
+					<option value="MEEM">MEEM</option>
+				
+				</select>
+				
+				
+				
+				</p>
+		
+			</div>
 		</div>
 		<div id="newsLetterButton">
+			<div class="buttonTextStyle">
+				<a href="nieuwsbrief.php">Nieuwsbrief</a>
+			</div>
 		</div>
 	</div>
 	<div id="mainFooter">
