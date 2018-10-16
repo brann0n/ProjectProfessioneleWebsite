@@ -17,7 +17,7 @@
 }
 /* Header */
 #mainHeader {
-	background-color: yellow;
+	background-color: #b4292e;
 	width: 1046px;
 	height: 130px;
 	border: 3px solid black;
@@ -37,28 +37,41 @@ h1 {
 	text-align: center;
 	letter-spacing: 5px;
 	padding: 10px;
-	
-	
 }
 /* Content */
 #mainContent {
 	width: 1050px;
-	height: 550px;
-	
+	height: 600px;
 	float: left;
 	border: 1px solid black;
 }
 #navigate {
 	width: 350px;
 	height: 250px;
-	background-color: purple;
+	background-color: #cdc390;
 	float: left;
-	margin-top: 85px;
+	margin-top: 70px;
+	margin-left: 40px;
 	border: 3px solid black;
 	border-radius: 5px;
+	box-shadow: 10px 10px 5px grey;
 	
 }
-
+li {
+	font-size: 20px;
+	list-style: none;
+	margin: 20px;
+	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	
+	color: #b4292e;
+	
+}
 
 #bgImage {
 	background-image: url('image/bg.png');
@@ -69,7 +82,7 @@ h1 {
 
 /* Buttons */
 #loginButton {
-	background-color: purple;
+	background-color: #cdc390;
 	width: 200px;
 	height: 60px;
 	float: left;
@@ -82,7 +95,7 @@ h1 {
 
 
 #searchFunction {
-	background-color: purple;
+	background-color: #cdc390;
 	width: 350px;
 	height: 60px;
 	float: left;
@@ -90,7 +103,7 @@ h1 {
 }
 
 #newsLetterButton {
-	background-color: purple;
+	background-color: #cdc390;
 	width: 200px;
 	height: 60px;
 	float: left;
@@ -106,7 +119,7 @@ h1 {
 #mainFooter {
 	width: 1046px;
 	height: 130px;
-	background-color: blue;
+	background-color: #b4292e;
 	float: left;
 	border: 3px solid black;
 

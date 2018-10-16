@@ -17,6 +17,13 @@
 	<div id="mainContent">
 		<div id="bgImage">
 			<div id="navigate">
+			<ul>
+				<li><a href="opleidingen.php">Opleidingen</a></li>
+				<li><a href="inschrijven.php">Inschrijven</a></li>
+				<li><a href="opendagen.php">Open dagen</a></li>
+				<li><a href="evenementen.php">Evenementen</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
 			</div>
 		</div>
 		<div id="loginButton">	
