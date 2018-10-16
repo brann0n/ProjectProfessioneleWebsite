@@ -40,6 +40,12 @@ h1 {
 	padding: 10px;
 	color: white;
 }
+
+.h1Title {
+	margin-top: 20px;
+	text-shadow: 5px 5px 5px black;
+	
+}
 /* Content */
 #mainContent {
 	width: 1050px;
@@ -74,6 +80,7 @@ a {
 a:hover {
 	
 	color: #b4292e;
+	text-decoration: underline;
 	
 }
 

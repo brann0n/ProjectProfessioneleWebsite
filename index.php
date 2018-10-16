@@ -12,7 +12,9 @@
 	<div id="mainBody">
 
 		<div id="mainHeader">
-			<h1>Technische Hogeschool 'T Veenhoog</h1>
+			<div class="h1Title">
+				<h1>Technische Hogeschool 'T Veenhoog</h1>
+			</div>
 		</div>
 	<div id="mainContent">
 		<div id="bgImage">
@@ -34,16 +36,11 @@
 		<div id="searchFunction">
 			<div class="newsTextStyle">
 				<p>Vind jouw opleiding:
-						<select>
-					<option value="meme">Meme</option>
-					<option value="MEEM">MEEM</option>
-				
-				</select>
-				
-				
-				
-				</p>
-		
+					<select>
+						<option value="meme">Meme</option>
+						<option value="MEEM">MEEM</option>
+					</select>			
+				</p>	
 			</div>
 		</div>
 		<div id="newsLetterButton">
