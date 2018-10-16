@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana;
+}
+
+/* Body */
+#mainBody {
+	
+	
+	margin: 0px auto;
+	width: 1050px;
+	height: 865px;
+	
+	
+	
+}
+/* Header */
+#mainHeader {
+	background-color: yellow;
+	width: 1046px;
+	height: 130px;
+	border: 3px solid black;
+	float: left;
+	
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 10px;
+	
+}
+/* Content */
+#mainContent {
+	width: 1050px;
+	height: 550px;
+	
+	float: left;
+	border: 1px solid black;
+}
+#navigate {
+	width: 350px;
+	height: 250px;
+	background-color: purple;
+	float: left;
+	margin-top: 85px;
+	border: 3px solid black;
+	border-radius: 5px;
+	
+}
+
+
+#bgImage {
+	background-image: url('image/bg.png');
+	width: 1050px;
+	height: 434px;
+	
+}
+
+/* Buttons */
+#loginButton {
+	background-color: purple;
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 101px;
+	border: 3px solid black;
+}
+
+
+
+#searchFunction {
+	background-color: purple;
+	width: 350px;
+	height: 60px;
+	float: left;
+	border: 3px solid black;
+}
+
+#newsLetterButton {
+	background-color: purple;
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-left: 101px;
+	border: 3px solid black;
+	
+	
+}
+/* Footer */
+
+#mainFooter {
+	width: 1046px;
+	height: 130px;
+	background-color: blue;
+	float: left;
+	border: 3px solid black;
+
+}
