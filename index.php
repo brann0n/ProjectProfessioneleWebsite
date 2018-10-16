@@ -6,7 +6,11 @@
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
+			<div id="logo">
+			<img src="image/logo.png" \>
+		</div>
 	<div id="mainBody">
+
 		<div id="mainHeader">
 			<h1>Technische Hogeschool 'T Veenhoog</h1>
 		</div>

@@ -24,11 +24,20 @@
 	float: left;
 	
 }
+#logo {
+	float: left;
+	width: 149px;
+	height: 130px;
+	
+	
+}
 
 h1 {
+	font-size: 40px;
 	text-align: center;
 	letter-spacing: 5px;
 	padding: 10px;
+	
 	
 }
 /* Content */
