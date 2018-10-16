@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 	<head>
-		<title>Index</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>T' Veenhoog</title>
 	</head>
 	<body>
-		<h1>This is the thing</h1>
-		<?php
-			echo "Aids";
-		?>
+	<div id="mainBody">
+		<div id="mainHeader">
+			<h1>Technische Hogeschool 'T Veenhoog</h1>
+		</div>
+	<div id="mainContent">
+		<div id="bgImage">
+			<div id="navigate">
+			</div>
+		</div>
+		<div id="loginButton">	
+		</div>
+		<div id="searchFunction">
+		</div>
+		<div id="newsLetterButton">
+		</div>
+	</div>
+	<div id="mainFooter">
+	</div>	
+	
 	</body>
 </html>
