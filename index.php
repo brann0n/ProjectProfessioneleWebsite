@@ -6,17 +6,17 @@
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
-			<div id="logo">
+			<div class="logo">
 			<img src="image/logo.png" alt="logo"\>
 		</div>
-	<div id="mainBody">
+	<div class="mainBody">
 
-		<div id="mainHeader">
+		<div class="mainHeader">
 			<div class="h1Title">
 				<h1>Technische Hogeschool 'T Veenhoog</h1>
 			</div>
 		</div>
-	<div id="mainContent">
+	<div class="mainContent">
 		<div id="bgImage">
 			<div id="navigate">
 			<ul>
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="mainFooter">
+	<div class="mainFooter">
 	</div>	
 	
 	</body>

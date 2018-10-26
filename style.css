@@ -5,7 +5,7 @@
 }
 
 /* Body */
-#mainBody {
+.mainBody {
 	
 	
 	margin: 0px auto;
@@ -16,7 +16,7 @@
 	
 }
 /* Header */
-#mainHeader {
+.mainHeader {
 	background-color: #b4292e;
 	width: 1046px;
 	height: 130px;
@@ -25,11 +25,12 @@
 	box-shadow: 5px 5px 5px grey;
 	
 }
-#logo {
+.logo {
 	float: left;
 	width: 149px;
 	height: 130px;
 	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
 	
 }
 
@@ -39,20 +40,29 @@ h1 {
 	letter-spacing: 5px;
 	padding: 10px;
 	color: white;
+	
 }
 
 .h1Title {
 	margin-top: 20px;
-	text-shadow: 5px 5px 5px black;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	
+}
+
+body {
+	background-image: url("image/cogs.png");
+	background-repeat: no-repeat;
+	background-position: right;
 	
 }
 /* Content */
-#mainContent {
+.mainContent {
 	width: 1050px;
 	height: 600px;
 	float: left;
 	border: 1px solid black;
 	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
 }
 #navigate {
 	width: 350px;
@@ -153,7 +163,7 @@ select {
 }
 /* Footer */
 
-#mainFooter {
+.mainFooter {
 	width: 1046px;
 	height: 130px;
 	background-color: #b4292e;
