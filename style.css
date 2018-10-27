@@ -140,6 +140,7 @@ a:hover {
 	background-image: url('image/bg.png');
 	width: 1050px;
 	height: 434px;
+	background-position: center;
 }
 
 /* Buttons */
