@@ -10,29 +10,28 @@
 				<div class="logo">
 					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
 				</div>
-	
 			<div class="mainBody">
-					<div class="mainHeader">
-						<div class="h1Title">
-							<h1>Technische Hogeschool 'T Veenhoog</h1>
-						</div>
+				<div class="mainHeader">
+					<div class="h1Title">
+						<h1>Technische Hogeschool 'T Veenhoog</h1>
 					</div>
+				</div>
 				<div class="mainContent">
 					<div id="bgImage">
 						<div id="navigate">
 							<ul>
-								<li><a href="opleidingen.php">Opleidingen</a></li>
-								<li><a href="inschrijven.php">Inschrijven</a></li>
-								<li><a href="opendagen.php">Open dagen</a></li>
-								<li><a href="evenementen.php">Evenementen</a></li>
-								<li><a href="contact.php">Contact</a></li>
+								<div id="navButtons"><li><a href="opleidingen.php">Opleidingen</a></li></div>
+								<div id="navButtons"><li><a href="inschrijven.php">Inschrijven</a></li></div>
+								<div id="navButtons"><li><a href="opendagen.php">Open dagen</a></li></div>
+								<div id="navButtons"><li><a href="evenementen.php">Evenementen</a></li></div>
+								<div id="navButtons"><li><a href="contact.php">Contact</a></li></div>
 							</ul>
 						</div>
 					</div>
 					<a href="login.php">
 						<div id="loginButton">
 							<div class="buttonTextStyle">
-								Login
+								<p>Login</p>
 							</div>
 						</div>
 					</a>
@@ -40,8 +39,8 @@
 						<div class="newsTextStyle">
 							<p>Vind jouw opleiding:
 								<select>
-									<option value="meme">automotive</option>
-									<option value="MEEM">mechatronica</option>
+									<option value="meme">Meme</option>
+									<option value="MEEM">MEEM</option>
 								</select>			
 							</p>	
 						</div>
