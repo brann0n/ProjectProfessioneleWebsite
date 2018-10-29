@@ -9,7 +9,7 @@ $usersArray = [
     ["developer", "@_d897", "1"],
     ["user", "!49_09", "2"]
 ];
-$errorMessage = "Please enter your credentials.";
+$errorMessage = "Vul hier je gegevens in";
 
 //check if the submit button was pressed and then fill the variables.
 if (isset($_POST["submit"])) {
@@ -46,7 +46,7 @@ if (isset($_POST["submit"])) {
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
     <body>
@@ -66,13 +66,6 @@ if (isset($_POST["submit"])) {
                 <div class="mainContent">
                     <!--This is the signin form-->
                     <div class="loginPageContent">
-                        <!--                        <form action="login.php" method="POST">
-                                                    <label id="errorMessage"><?php echo $errorMessage; ?></label>
-                                                    <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
-                                                    <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >                           
-                                                    <input type="submit" name="submit" id="submit" value="Inloggen">
-                                                </form>-->
-
                         <?php
                         if (!$_SESSION["authenticated"]) {
                             echo "<form action=\"login.php\" method=\"POST\">";
