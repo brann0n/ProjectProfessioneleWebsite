@@ -20,7 +20,15 @@
 						</div>
 					</div>
 				<div class="mainContent">
-	
+					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
+					<h2>automotive</h2>
+					<p>
+						filler text
+					<p>
+					<h2>mechatronica</h2>
+					<p>
+						filler text
+					</p>
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">

@@ -40,8 +40,8 @@
 						<div class="newsTextStyle">
 							<p>Vind jouw opleiding:
 								<select>
-									<option value="meme">Meme</option>
-									<option value="MEEM">MEEM</option>
+									<option value="meme">automotive</option>
+									<option value="MEEM">mechatronica</option>
 								</select>			
 							</p>	
 						</div>
