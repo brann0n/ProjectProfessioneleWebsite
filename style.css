@@ -319,12 +319,7 @@ select {
 	
 }
 
-<<<<<<< HEAD
 
-
-
-
-=======
 .h2title{
 	font-size: 20px;
 	text-align: center;
@@ -377,7 +372,22 @@ Css for login page
     width: 495px;
     height: 47px;
 }
->>>>>>> c12d79b638130dab0a0f0fc4bff0e1500e0cdee5
+p{
+	padding: 10px;
+	text-align: justify;
+}
+h2{
+	padding: 10px;
+}
+.mainopleiding {
+	width: 1050px;
+	height: auto;
+	float: left;
+	border: 1px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
+}
+
 
 
 

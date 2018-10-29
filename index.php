@@ -37,12 +37,12 @@
 					</a>
 					<div id="searchFunction">
 						<div class="newsTextStyle">
-							<p>Vind jouw opleiding:
+							Vind jouw opleiding:
 								<select>
 									<option value="meme">Meme</option>
 									<option value="MEEM">MEEM</option>
 								</select>			
-							</p>	
+								
 						</div>
 					</div>
 					<a href="nieuwsbrief.php">
