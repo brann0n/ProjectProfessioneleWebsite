@@ -8,7 +8,7 @@
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<img src="image/logo.png" alt="logo" />
+					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
 				</div>
 
 			
