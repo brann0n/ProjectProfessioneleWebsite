@@ -130,23 +130,23 @@ body {
 	
 }
 
-#navButtons {
-	padding: 20px;
+.navButtons {
+	
 	width: 290px;
-	height: 6px;
+	height: 45px;
 }
 
-#navButtons li{
+.navButtons li{
 	color: black;
 }
 
-#navButtons:hover {
+.navButtons:hover {
 	color: white;
 	background-color: #b4292e;
 	text-decoration: underline;
 	
 }
-#navButtons li:hover {
+.navButtons li:hover {
 	color: white;
 }
 
@@ -322,6 +322,12 @@ select {
 }
 
 
+.h2title{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 10px;
+}
 
 /*
 Css for login page
@@ -375,7 +381,6 @@ p{
 h2{
 	padding: 10px;
 }
-/* css voor opleiding.php*/
 .mainopleiding {
 	width: 1050px;
 	height: auto;
@@ -385,18 +390,6 @@ h2{
 	background-color: white;
 }
 
-.h2title{
-	font-size: 20px;
-	text-align: center;
-	letter-spacing: 5px;
-	padding: 10px;
-}
-.h2subtitle{
-	font-size: 15px;
-	text-align: center;
-	letter-spacing: 5px;
-	padding: 10px;
-}
 
 
 
