@@ -19,7 +19,7 @@
 							<h1>Technische Hogeschool 'T Veenhoog</h1>
 						</div>
 					</div>
-				<div class="mainContent">
+				<div class="mainopleiding">
 					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
 					<h2>automotive</h2>
 					<br>
