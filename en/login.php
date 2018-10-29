@@ -1,4 +1,5 @@
 <?php
+session_start();
 //init vars
 $username = "";
 $password = "";
@@ -8,6 +9,8 @@ $usersArray = [
     ["brandon","12345"],
     ["michiel","43212"] 
 ];
+$errorMessage = "Please enter your credentials.";
+
 //check if the submit button was pressed and then fill the variables.
 if(isset($_POST["submit"])){
     $password = filter_input(INPUT_POST, 'password');
@@ -20,21 +23,27 @@ if(isset($_POST["submit"])){
             if($user[1] == $password){
                 //user is signed in.
                 echo "SIGNED IN";
+                $_SESSION["username"] = $username;
+                $_SESSION["password"] = $password;
+                $_SESSION["authenticated"] = true;
+                $errorMessage = "U bent ingelogd.";
+                break;
             }
             else{
                 //password is wrong.
+                $_SESSION["authenticated"] = false;
+                $errorMessage = "Wrong password";
+                break;
             }
         }
         else{
             //username is not known in the array.
+            $errorMessage = "Username does not exist.";
+            $_SESSION["authenticated"] = false;
         }
     }
 }
-
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -62,6 +71,7 @@ if(isset($_POST["submit"])){
                                         <form action="login.php" method="POST">
                                         <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
                                         <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
+                                        <label id="errorMessage"><?php echo $errorMessage;?></label>
                                         <input type="submit" name="submit" id="submit" value="Inloggen">
                                     </form>
                                     </div>
@@ -109,7 +119,7 @@ if(isset($_POST["submit"])){
 				</a>
 				<a href="indexE.php">
 					<div class="languageEnglish">
-						<h3>English</h3>
+                                                <h3>English</h3>
 					</div>
 				</a>
 			</div>
