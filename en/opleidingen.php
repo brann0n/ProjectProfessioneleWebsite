@@ -48,7 +48,7 @@
 						Je bedenkt hoe je apparaten veiliger of gebruiksvriendelijker maakt én je ontwerpt ze.
 						Denk daarbij aan een geautomatiseerde wasstraat, een slimme productierobot, of binnen de gezondheidszorg een geavanceerde rolstoel of vervangende robotarm.
 						De moderne mensheid kan niet meer zonder mechatronica en er is dan ook grote behoefte aan goedopgeleide mechatronica engineers.
-						Bij Fontys leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
+						Bij 'T Veenhoog leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
 					</p>
 				</div>
 				<div class="mainFooter">
