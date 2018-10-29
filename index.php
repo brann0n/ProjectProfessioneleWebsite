@@ -10,10 +10,8 @@
 				<div class="logo">
 					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
 				</div>
-
-			
+	
 			<div class="mainBody">
-
 					<div class="mainHeader">
 						<div class="h1Title">
 							<h1>Technische Hogeschool 'T Veenhoog</h1>
@@ -22,20 +20,22 @@
 				<div class="mainContent">
 					<div id="bgImage">
 						<div id="navigate">
-						<ul>
-							<li><a href="opleidingen.php">Opleidingen</a></li>
-							<li><a href="inschrijven.php">Inschrijven</a></li>
-							<li><a href="opendagen.php">Open dagen</a></li>
-							<li><a href="evenementen.php">Evenementen</a></li>
-							<li><a href="contact.php">Contact</a></li>
-						</ul>
+							<ul>
+								<li><a href="opleidingen.php">Opleidingen</a></li>
+								<li><a href="inschrijven.php">Inschrijven</a></li>
+								<li><a href="opendagen.php">Open dagen</a></li>
+								<li><a href="evenementen.php">Evenementen</a></li>
+								<li><a href="contact.php">Contact</a></li>
+							</ul>
 						</div>
 					</div>
-					<div id="loginButton">
-						<div class="buttonTextStyle">
-							<a href="login.php">Login</a>
+					<a href="login.php">
+						<div id="loginButton">
+							<div class="buttonTextStyle">
+								Login
+							</div>
 						</div>
-					</div>
+					</a>
 					<div id="searchFunction">
 						<div class="newsTextStyle">
 							<p>Vind jouw opleiding:
@@ -46,11 +46,13 @@
 							</p>	
 						</div>
 					</div>
-					<div id="newsLetterButton">
-						<div class="buttonTextStyle">
-							<a href="nieuwsbrief.php">Nieuwsbrief</a>
+					<a href="nieuwsbrief.php">
+						<div id="newsLetterButton">
+							<div class="buttonTextStyle">
+								Nieuwsbrief
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
@@ -88,9 +90,16 @@
 				</div>	
 			</div>
 			<div class="language">
-				<h3><a href="index.php">Nederlands</a></h3>
-				<hr>
-				<h3><a href="indexE.php">English</a></h3>
+				<a href="index.php">
+					<div class="languageDutch">	
+						<h3>Nederlands</h3>
+					</div>
+				</a>
+				<a href="indexE.php">
+					<div class="languageEnglish">
+						<h3>English</h3>
+					</div>
+				</a>
 			</div>
 		</div>
 	</body>
