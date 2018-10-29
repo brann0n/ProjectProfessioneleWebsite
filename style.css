@@ -118,7 +118,6 @@ body {
 /* Navigation */
 #navigate {
 	font-size: 20px;
-	color: black;
 	width: 330px;
 	height: 230px;
 	background-color: #cdc390;
@@ -130,23 +129,29 @@ body {
 	box-shadow: 0px 5px 5px 5px grey;
 	
 }
-#navigate a {
-	line-height: 2.1;
-}
-#navigate a:hover {
-	color: white;	
-	text-decoration: underline;
-}
+
 #navButtons {
 	padding: 20px;
 	width: 290px;
-	height: 15px;
+	height: 6px;
+}
+
+#navButtons li{
+	color: black;
 }
 
 #navButtons:hover {
+	color: white;
 	background-color: #b4292e;
+	text-decoration: underline;
 	
 }
+#navButtons li:hover {
+	color: white;
+}
+
+
+
 li {
 	list-style: none;
 }
