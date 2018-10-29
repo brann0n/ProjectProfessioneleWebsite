@@ -19,7 +19,7 @@
 							<h1>Technische Hogeschool 'T Veenhoog</h1>
 						</div>
 					</div>
-				<div class="mainContent">
+				<div class="mainopleiding">
 					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
 					<h2>automotive</h2>
 					<br>
@@ -87,9 +87,16 @@
 				</div>	
 			</div>
 			<div class="language">
-				<h3><a href="index.php">Nederlands</a></h3>
-				<hr>
-				<h3><a href="indexE.php">English</a></h3>
+				<a href="index.php">
+					<div class="languageDutch">	
+						<h3>Nederlands</h3>
+					</div>
+				</a>
+				<a href="indexE.php">
+					<div class="languageEnglish">
+						<h3>English</h3>
+					</div>
+				</a>
 			</div>
 		</div>
 	</body>

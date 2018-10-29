@@ -102,9 +102,16 @@ if(isset($_POST["submit"])){
 				</div>	
 			</div>
 			<div class="language">
-				<h3><a href="index.php">Nederlands</a></h3>
-				<hr>
-				<h3><a href="indexE.php">English</a></h3>
+				<a href="index.php">
+					<div class="languageDutch">	
+						<h3>Nederlands</h3>
+					</div>
+				</a>
+				<a href="indexE.php">
+					<div class="languageEnglish">
+						<h3>English</h3>
+					</div>
+				</a>
 			</div>
 		</div>
 	</body>
