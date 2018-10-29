@@ -24,6 +24,8 @@
 							<a href="login.php">Login</a>
 						</div>
 					</div>
+					
+					<!-- Voeg hier je code toe-->
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
