@@ -22,7 +22,6 @@ if(isset($_POST["submit"])){
             //now check the password.
             if($user[1] == $password){
                 //user is signed in.
-                echo "SIGNED IN";
                 $_SESSION["username"] = $username;
                 $_SESSION["password"] = $password;
                 $_SESSION["authenticated"] = true;
@@ -112,12 +111,12 @@ if(isset($_POST["submit"])){
 				</div>	
 			</div>
 			<div class="language">
-				<a href="index.php">
+				<a href="../nl/login.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/login.php">
 					<div class="languageEnglish">
                                                 <h3>English</h3>
 					</div>

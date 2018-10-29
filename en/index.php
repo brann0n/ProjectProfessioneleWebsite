@@ -89,12 +89,12 @@
 				</div>	
 			</div>
 			<div class="language">
-				<a href="index.php">
+				<a href="../nl/index.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/index.php">
 					<div class="languageEnglish">
 						<h3>English</h3>
 					</div>
