@@ -6,7 +6,7 @@ $usersArray = [
     //user    pass
     ["admin","admin"],
     ["brandon","12345"],
-    ["michiel","43212"],  
+    ["michiel","43212"] 
 ];
 //check if the submit button was pressed and then fill the variables.
 if(isset($_POST["submit"])){
@@ -14,11 +14,12 @@ if(isset($_POST["submit"])){
     $username = filter_input(INPUT_POST, 'username');
     
     //check if the username is found in the array, do this with a foreach.
-    foreach($userArray as $user){
+    foreach($usersArray as $user){
         if($user[0] == $username){
             //now check the password.
             if($user[1] == $password){
                 //user is signed in.
+                echo "SIGNED IN";
             }
             else{
                 //password is wrong.
