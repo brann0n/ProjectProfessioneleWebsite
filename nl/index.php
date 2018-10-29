@@ -6,7 +6,7 @@ session_start();
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
     <body>
