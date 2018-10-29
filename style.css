@@ -283,10 +283,51 @@ select {
 	padding: 10px;
 }
 
+/*
+Css for login page
+*/
+.loginPageContent{
+   
+    width: 500px;
+    height: 200px;
+    margin: auto;  
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #cdc390;
+}
+#username{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#password{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
 
-
-
-
+#submit{
+    width: 494px;
+    height: 46px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#submit:hover{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 495px;
+    height: 47px;
+}
 
 
 

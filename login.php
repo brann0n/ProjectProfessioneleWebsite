@@ -1,4 +1,35 @@
 <?php
+//init vars
+$username = "";
+$password = "";
+$usersArray = [
+    //user    pass
+    ["admin","admin"],
+    ["brandon","12345"],
+    ["michiel","43212"],  
+];
+//check if the submit button was pressed and then fill the variables.
+if(isset($_POST["submit"])){
+    $password = filter_input(INPUT_POST, 'password');
+    $username = filter_input(INPUT_POST, 'username');
+    
+    //check if the username is found in the array, do this with a foreach.
+    foreach($userArray as $user){
+        if($user[0] == $username){
+            //now check the password.
+            if($user[1] == $password){
+                //user is signed in.
+            }
+            else{
+                //password is wrong.
+            }
+        }
+        else{
+            //username is not known in the array.
+        }
+    }
+}
+
 
 
 ?>
@@ -25,11 +56,14 @@
 						</div>
 					</div>
 				<div class="mainContent">
-                                    <form action="login.php" method="POST">
+                                    <!--This is the signin form-->
+                                    <div class="loginPageContent">
+                                        <form action="login.php" method="POST">
                                         <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
                                         <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
                                         <input type="submit" name="submit" id="submit" value="Inloggen">
                                     </form>
+                                    </div>
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
