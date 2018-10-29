@@ -8,12 +8,9 @@
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<img src="image/logo.png" alt="logo" />
+					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
 				</div>
-
-			
 			<div class="mainBody">
-
 					<div class="mainHeader">
 						<div class="h1Title">
 							<h1>Technische Hogeschool 'T Veenhoog</h1>
@@ -65,10 +62,17 @@
 					</div>
 				</div>	
 			</div>
-			<div class="language">
-				<h3><a href="index.php">Nederlands</a></h3>
-				<hr>
-				<h3><a href="indexE.php">English</a></h3>
+				<div class="language">
+				<a href="index.php">
+					<div class="languageDutch">	
+						<h3>Nederlands</h3>
+					</div>
+				</a>
+				<a href="indexE.php">
+					<div class="languageEnglish">
+						<h3>English</h3>
+					</div>
+				</a>
 			</div>
 		</div>
 	</body>
