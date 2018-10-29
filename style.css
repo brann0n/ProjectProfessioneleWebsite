@@ -118,17 +118,21 @@ body {
 /* Navigation */
 #navigate {
 	font-size: 20px;
+	color: black;
 	width: 330px;
 	height: 230px;
 	background-color: #cdc390;
 	float: left;
 	margin-top: 70px;
 	margin-left: 40px;
+	
+
 	border: 3px solid black;
 	border-radius: 5px;
 	box-shadow: 0px 5px 5px 5px grey;
 	
 }
+<<<<<<< HEAD
 
 .navButtons {
 	
@@ -142,16 +146,35 @@ body {
 
 .navButtons:hover {
 	color: white;
-	background-color: #b4292e;
+=======
+#navigate a {
+	line-height: 2.1;
+}
+#navigate a:hover {
+	color: white;
+	
 	text-decoration: underline;
+}
+#navButtons {
+	padding: 20px;
+	width: 290px;
+	height: 20px;
+}
+
+#navButtons:hover {
+>>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
+	background-color: #b4292e;
 	
 }
+<<<<<<< HEAD
 .navButtons li:hover {
 	color: white;
 }
 
 
 
+=======
+>>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
 li {
 	list-style: none;
 }

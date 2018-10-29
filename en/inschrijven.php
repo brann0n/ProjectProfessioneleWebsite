@@ -2,13 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
 		<div class="centering">
                     <div class="logo">
-                        <a href="index.php"><img src="image/logo.png" alt="logo" /></a>
+                        <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
                     </div>
 
                     <div class="mainBody">

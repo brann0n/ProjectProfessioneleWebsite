@@ -2,13 +2,13 @@
 <html lang="nl">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
+					<a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
 				</div>
 
 			
@@ -21,7 +21,7 @@
 					</div>
 				<div class="mainopleiding">
 					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
-					<div class="h2subtitle"><h2>automotive</h2></div>
+					<h2>automotive</h2>
 					<br>
 					<p>
 						De wereld van auto’s en techniek zit in een van zijn spannendste fasen ooit.
@@ -40,7 +40,7 @@
 					</p>
 					<br>
 					<br>
-					<div class="h2subtitle"><h2>mechatronica</h2></div>
+					<h2>mechatronica</h2>
 					<br>
 					<p>
 						Mechatronica is een multidisciplinaire combinatie van elektrotechniek, werktuigbouwkunde en technische informatica.
@@ -48,7 +48,7 @@
 						Je bedenkt hoe je apparaten veiliger of gebruiksvriendelijker maakt én je ontwerpt ze.
 						Denk daarbij aan een geautomatiseerde wasstraat, een slimme productierobot, of binnen de gezondheidszorg een geavanceerde rolstoel of vervangende robotarm.
 						De moderne mensheid kan niet meer zonder mechatronica en er is dan ook grote behoefte aan goedopgeleide mechatronica engineers.
-						Bij Fontys leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
+						Bij 'T Veenhoog leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
 					</p>
 				</div>
 				<div class="mainFooter">
@@ -74,13 +74,13 @@
 					<div class="navFooterRight">
 						<ul>
 							<li class="footerTopElementSocial">Volgs ons:</li>
-							<li><a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook"/></a>
-							<a href="https://twitter.com/"><img src="image/twitter.png" alt="Twitter"/></a>
-							<a href="https://youtube.com/"><img src="image/youtube.png" alt="Youtube"/></a>
+							<li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
+							<a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
+							<a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
 							</li>
 							<li class="socialStyle">
-							<a href="https://www.linkedin.com/"><img src="image/linkedin.png" alt="Linkedin"/></a>
-							<a href="https://instagram.com/"><img src="image/instagram.png" alt="Instagram"/></a>
+							<a href="https://www.linkedin.com/"><img src="../image/linkedin.png" alt="Linkedin"/></a>
+							<a href="https://instagram.com/"><img src="../image/instagram.png" alt="Instagram"/></a>
 							</li>
 						</ul>
 					</div>

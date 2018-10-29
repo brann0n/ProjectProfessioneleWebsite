@@ -1,4 +1,5 @@
 <?php
+session_start();
 //init vars
 $username = "";
 $password = "";
@@ -8,6 +9,8 @@ $usersArray = [
     ["brandon","12345"],
     ["michiel","43212"] 
 ];
+$errorMessage = "Please enter your credentials.";
+
 //check if the submit button was pressed and then fill the variables.
 if(isset($_POST["submit"])){
     $password = filter_input(INPUT_POST, 'password');
@@ -19,33 +22,38 @@ if(isset($_POST["submit"])){
             //now check the password.
             if($user[1] == $password){
                 //user is signed in.
-                echo "SIGNED IN";
+                $_SESSION["username"] = $username;
+                $_SESSION["password"] = $password;
+                $_SESSION["authenticated"] = true;
+                $errorMessage = "U bent ingelogd. <a>naar home page</a>";
+                break;
             }
             else{
                 //password is wrong.
+                $_SESSION["authenticated"] = false;
+                $errorMessage = "Wrong password";
+                break;
             }
         }
         else{
             //username is not known in the array.
+            $errorMessage = "Username does not exist.";
+            $_SESSION["authenticated"] = false;
         }
     }
 }
-
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
+					<a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
 				</div>
 
 			
@@ -62,6 +70,7 @@ if(isset($_POST["submit"])){
                                         <form action="login.php" method="POST">
                                         <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
                                         <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
+                                        <label id="errorMessage"><?php echo $errorMessage;?></label>
                                         <input type="submit" name="submit" id="submit" value="Inloggen">
                                     </form>
                                     </div>
@@ -89,27 +98,27 @@ if(isset($_POST["submit"])){
 					<div class="navFooterRight">
 						<ul>
 							<li class="footerTopElementSocial">Volgs ons:</li>
-							<li><a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook"/></a>
-							<a href="https://twitter.com/"><img src="image/twitter.png" alt="Twitter"/></a>
-							<a href="https://youtube.com/"><img src="image/youtube.png" alt="Youtube"/></a>
+							<li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
+							<a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
+							<a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
 							</li>
 							<li class="socialStyle">
-							<a href="https://www.linkedin.com/"><img src="image/linkedin.png" alt="Linkedin"/></a>
-							<a href="https://instagram.com/"><img src="image/instagram.png" alt="Instagram"/></a>
+							<a href="https://www.linkedin.com/"><img src="../image/linkedin.png" alt="Linkedin"/></a>
+							<a href="https://instagram.com/"><img src="../image/instagram.png" alt="Instagram"/></a>
 							</li>
 						</ul>
 					</div>
 				</div>	
 			</div>
 			<div class="language">
-				<a href="index.php">
+				<a href="../nl/login.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/login.php">
 					<div class="languageEnglish">
-						<h3>English</h3>
+                                                <h3>English</h3>
 					</div>
 				</a>
 			</div>

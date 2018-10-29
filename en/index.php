@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
 	</head>
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
+					<a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
 				</div>
 			<div class="mainBody">
 				<div class="mainHeader">
@@ -21,11 +20,11 @@
 					<div id="bgImage">
 						<div id="navigate">
 							<ul>
-								<a href="opleidingen.php"><div class="navButtons"><li>Opleidingen</li></div></a>
-								<a href="inschrijven.php"><div class="navButtons"><li>Inschrijven</li></div></a>
-								<a href="opendagen.php"><div class="navButtons"><li>Open dagen</li></div></a>
-								<a href="evenementen.php"><div class="navButtons"><li>Evenementen</li></div></a>
-								<a href="contact.php"><div class="navButtons"><li>Contact</li></div></a>
+								<a href="opleidingen.php"><div id="navButtons"><li>Opleidingen</li></div></a>
+								<a href="inschrijven.php"><div id="navButtons"><li>Inschrijven</li></div></a>
+								<a href="opendagen.php"><div id="navButtons"><li>Open dagen</li></div></a>
+								<a href="evenementen.php"><div id="navButtons"><li>Evenementen</li></div></a>
+								<a href="contact.php"><div id="navButtons"><li>Contact</li></div></a>
 							</ul>
 						</div>
 					</div>
@@ -77,25 +76,25 @@
 					<div class="navFooterRight">
 						<ul>
 							<li class="footerTopElementSocial">Volgs ons:</li>
-							<li><a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook"/></a>
-							<a href="https://twitter.com/"><img src="image/twitter.png" alt="Twitter"/></a>
-							<a href="https://youtube.com/"><img src="image/youtube.png" alt="Youtube"/></a>
+							<li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
+							<a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
+							<a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
 							</li>
 							<li class="socialStyle">
-							<a href="https://www.linkedin.com/"><img src="image/linkedin.png" alt="Linkedin"/></a>
-							<a href="https://instagram.com/"><img src="image/instagram.png" alt="Instagram"/></a>
+							<a href="https://www.linkedin.com/"><img src="../image/linkedin.png" alt="Linkedin"/></a>
+							<a href="https://instagram.com/"><img src="../image/instagram.png" alt="Instagram"/></a>
 							</li>
 						</ul>
 					</div>
 				</div>	
 			</div>
 			<div class="language">
-				<a href="index.php">
+				<a href="../nl/index.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/index.php">
 					<div class="languageEnglish">
 						<h3>English</h3>
 					</div>
@@ -104,10 +103,3 @@
 		</div>
 	</body>
 </html>
-=======
-<?php
-
-header("Location: nl/index.php");
-die();
-?>
->>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
