@@ -157,6 +157,16 @@ a:hover {
 	border-radius: 5px;
 		
 }
+
+.loginTemp {
+	float: right;
+	background-color: #cdc390;
+	width: 200px;
+	height: 60px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	
+}
 .buttonTextStyle {
 	
 	margin-top: 15px;
@@ -265,6 +275,8 @@ select {
 	margin-left: 20px;
 	
 }
+
+
 
 
 
