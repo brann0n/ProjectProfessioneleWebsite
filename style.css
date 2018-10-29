@@ -125,8 +125,6 @@ body {
 	float: left;
 	margin-top: 70px;
 	margin-left: 40px;
-	
-
 	border: 3px solid black;
 	border-radius: 5px;
 	box-shadow: 0px 5px 5px 5px grey;
@@ -136,14 +134,13 @@ body {
 	line-height: 2.1;
 }
 #navigate a:hover {
-	color: white;
-	
+	color: white;	
 	text-decoration: underline;
 }
 #navButtons {
 	padding: 20px;
 	width: 290px;
-	height: 20px;
+	height: 15px;
 }
 
 #navButtons:hover {
