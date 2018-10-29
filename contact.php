@@ -8,11 +8,12 @@
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<a href="index.php"><img src="image/logo.png" alt="logo" /></a>
+					<img src="image/logo.png" alt="logo" />
 				</div>
 
 			
 			<div class="mainBody">
+
 					<div class="mainHeader">
 						<div class="h1Title">
 							<h1>Technische Hogeschool 'T Veenhoog</h1>
@@ -23,6 +24,10 @@
 						<div class="buttonTextStyle">
 							<a href="login.php">Login</a>
 						</div>
+					</div>
+					<div id="contact">
+					<h2>Adres</h2>
+					
 					</div>
 				</div>
 				<div class="mainFooter">
