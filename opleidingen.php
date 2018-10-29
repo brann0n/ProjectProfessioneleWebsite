@@ -22,12 +22,33 @@
 				<div class="mainContent">
 					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
 					<h2>automotive</h2>
+					<br>
 					<p>
-						filler text
-					<p>
+						De wereld van auto’s en techniek zit in een van zijn spannendste fasen ooit.
+						Onze toekomstige mobiliteit vraagt namelijk om oplossingen die revolutionair anders zijn.
+					</p><br><p>
+						Denk alleen al aan de eindigheid van fossiele brandstoffen en de uitstoot van schadelijke stoffen.
+						In die toekomst leren we creatiever omgaan met grondstoffen, leren we anders kijken naar de veiligheid van elke weggebruiker en bedenken we oplossingen die de files terugdringen.
+						Het goede nieuws is dat de automotive wereld daar nu al op topsnelheid mee experimenteert.
+						Met slimme toepassingen van ICT, elektronica en lichtgewicht construeren, maar ook door toepassing van elektrische of hybride aandrijvingen.
+					</p><br><p>
+						De helden in dat verhaal zijn de automotive engineers van 'T Veenhoog.
+						Het zijn vooral de probleemoplossers die verder kijken en begrijpen dat elke technische oplossing past in een complex plaatje
+						waarin mobiliteit nog slimmer, schoner, goedkoper en efficiënter moet.
+						‘Compleet voertuig denken’ noemen we dat.
+						Dat leer je in Hogeveen. Stap in en Drive your Future.
+					</p>
+					<br>
+					<br>
 					<h2>mechatronica</h2>
+					<br>
 					<p>
-						filler text
+						Mechatronica is een multidisciplinaire combinatie van elektrotechniek, werktuigbouwkunde en technische informatica.
+						In dit vak ben je een logische denker én een echte doener.
+						Je bedenkt hoe je apparaten veiliger of gebruiksvriendelijker maakt én je ontwerpt ze.
+						Denk daarbij aan een geautomatiseerde wasstraat, een slimme productierobot, of binnen de gezondheidszorg een geavanceerde rolstoel of vervangende robotarm.
+						De moderne mensheid kan niet meer zonder mechatronica en er is dan ook grote behoefte aan goedopgeleide mechatronica engineers.
+						Bij Fontys leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
 					</p>
 				</div>
 				<div class="mainFooter">
