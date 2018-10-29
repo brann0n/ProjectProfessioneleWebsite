@@ -25,7 +25,7 @@ if(isset($_POST["submit"])){
                 $_SESSION["username"] = $username;
                 $_SESSION["password"] = $password;
                 $_SESSION["authenticated"] = true;
-                $errorMessage = "U bent ingelogd.";
+                $errorMessage = "U bent ingelogd. <a>naar home page</a>";
                 break;
             }
             else{
