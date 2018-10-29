@@ -4,10 +4,10 @@ session_start();
 $username = "";
 $password = "";
 $usersArray = [
-    //user    pass
-    ["admin", "admin"],
-    ["brandon", "12345"],
-    ["michiel", "43212"]
+    //user    pass   permlvl
+    ["admin", "admin1234", "0"],
+    ["developer", "@_d897", "1"],
+    ["user", "!49_09", "2"]
 ];
 $errorMessage = "Please enter your credentials.";
 
@@ -26,6 +26,7 @@ if (isset($_POST["submit"])) {
                 $_SESSION["password"] = $password;
                 $_SESSION["authenticated"] = true;
                 $errorMessage = "U bent ingelogd. <a href='index.php'>naar home page</a>";
+                header("Location: index.php");
                 break;
             } else {
                 //password is wrong.
@@ -65,12 +66,26 @@ if (isset($_POST["submit"])) {
                 <div class="mainContent">
                     <!--This is the signin form-->
                     <div class="loginPageContent">
-                        <form action="login.php" method="POST">
-                            <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
-                            <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
-                            <label id="errorMessage"><?php echo $errorMessage; ?></label>
-                            <input type="submit" name="submit" id="submit" value="Inloggen">
-                        </form>
+                        <!--                        <form action="login.php" method="POST">
+                                                    <label id="errorMessage"><?php echo $errorMessage; ?></label>
+                                                    <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
+                                                    <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >                           
+                                                    <input type="submit" name="submit" id="submit" value="Inloggen">
+                                                </form>-->
+
+                        <?php
+                        if (!$_SESSION["authenticated"]) {
+                            echo "<form action=\"login.php\" method=\"POST\">";
+                            echo "<label id=\"errorMessage\">$errorMessage</label>";
+                            echo "<input type=\"text\" placeholder=\"Uw gebruikersnaam\" id=\"username\" name=\"username\" >";
+                            echo "<input type=\"password\" placeholder=\"Uw wachtwoord\" id=\"password\" name=\"password\" >";
+                            echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"Inloggen\">";
+                            echo "</form>";
+                        } else {
+                            echo "<h2>Je bent al ingelogd.</h2> <a href='index.php'>ga terug naar home</a>";
+                            echo "<br> Of klik <a href=\"signout.php\">hier</a> om uit te loggen.";
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="mainFooter">
