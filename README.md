@@ -3,8 +3,8 @@ Deze website is gemaakt voor de Technische hoogeschool T'Veenhoog
 
 ### Gebruik
 
-De website wordt gehost op een Ubuntu 18.04.1 LTS machine die via AnyDesk benader baar is (gegevens hiervan zijn in de groep bekend)
-De website is lokaal op de server beschikbaar onder http://localhost/
+De website wordt gehost via Stenden bij ServerIct
+De website is daardoor beschikbaar onder: [tveenhoog.serverict.nl](http://tveenhoog.serverict.nl)
 
 ## Built With
 
@@ -22,7 +22,7 @@ De website is lokaal op de server beschikbaar onder http://localhost/
 
 * **Nick ten Caat** - *Index.php* - [NicktenCaat](https://github.com/NicktenCaat)
 
-* **Simon Gharnagharyan** - *Index.php - [Gharyan](https://github.com/Gharyan)
+* **Simon Gharnagharyan** - *Index.php* - [Gharyan](https://github.com/Gharyan)
 
 * **Arjan Heijnen** - *Index.php* - [ArjanHeijnen](https://github.com/ArjanHeijnen)
 
