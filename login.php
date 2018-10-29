@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -20,15 +25,11 @@
 						</div>
 					</div>
 				<div class="mainContent">
-					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
-					<h2>automotive</h2>
-					<p>
-						filler text
-					<p>
-					<h2>mechatronica</h2>
-					<p>
-						filler text
-					</p>
+                                    <form action="login.php" method="POST">
+                                        <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
+                                        <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
+                                        <input type="submit" name="submit" id="submit" value="Inloggen">
+                                    </form>
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
