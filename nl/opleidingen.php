@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -86,15 +90,20 @@
 					</div>
 				</div>	
 			</div>
-			<div class="language">
-				<a href="index.php">
+			<div class="rightBlok">
+				<a href="opleidingen.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/opleidingen.php">
 					<div class="languageEnglish">
 						<h3>English</h3>
+					</div>
+				</a>
+				<a href="login.php">
+					<div class="loginRight">	
+						<h3>Login</h3>
 					</div>
 				</a>
 			</div>
