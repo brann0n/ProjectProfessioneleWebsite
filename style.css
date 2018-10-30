@@ -13,12 +13,12 @@
 	
 }
 .centering {
-	width: 1500px;
+	width: 1350px;
 	height: 905px;
 	margin: 0px auto;
 }
 /* Language */
-.language {
+.rightBlok {
 	float: left;
 	width: 143px;
 	height: 130px;
@@ -29,7 +29,8 @@
 	height: 64px;
 	background-color: #b4292e;
 	border: 3px solid black;
-	line-height: 60px
+	line-height: 60px;
+	box-shadow: 5px 5px 5px 0px grey;
 }
 
 .languageEnglish {
@@ -44,19 +45,38 @@
 	
 }
 
-.language a {
+.loginRight {
+	width: 143px;
+	height: 64px;
+	background-color: #b4292e;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	line-height: 60px;
+	box-shadow: 5px 5px 5px 0px grey;
+	
+}
+
+.rightBlok a {
 	color: white;
 	line-height: 1.8;
 }
-.language a:hover {
+.rightBlok a:hover {
 	color: black;
 }
 .languageDutch:hover {
 	background-color: #cdc390;
+	text-decoration: underline;
 }
 .languageEnglish:hover {
 	background-color: #cdc390;
+	text-decoration: underline;
 }
+.loginRight:hover {
+	background-color: #cdc390;
+	text-decoration: underline;
+}
+
 
 
 /* Body */
@@ -101,8 +121,10 @@ h1 {
 body {
 	background-image: url("image/cogs.png");
 	background-repeat: no-repeat;
-	background-position: right;
-	color: black;
+	background-attachment: fixed;
+	background-position: center 300px;
+	
+	
 	
 }
 /* Content */
@@ -118,25 +140,21 @@ body {
 /* Navigation */
 #navigate {
 	font-size: 20px;
-	color: black;
 	width: 330px;
-	height: 230px;
+	height: 245px;
 	background-color: #cdc390;
 	float: left;
 	margin-top: 70px;
 	margin-left: 40px;
-	
-
 	border: 3px solid black;
 	border-radius: 5px;
 	box-shadow: 0px 5px 5px 5px grey;
 	
 }
-<<<<<<< HEAD
 
 .navButtons {
-	
-	width: 290px;
+	padding: 2px;
+	width: 326px;
 	height: 45px;
 }
 
@@ -146,35 +164,13 @@ body {
 
 .navButtons:hover {
 	color: white;
-=======
-#navigate a {
-	line-height: 2.1;
-}
-#navigate a:hover {
-	color: white;
-	
-	text-decoration: underline;
-}
-#navButtons {
-	padding: 20px;
-	width: 290px;
-	height: 20px;
-}
-
-#navButtons:hover {
->>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
 	background-color: #b4292e;
+	text-decoration: underline;
 	
 }
-<<<<<<< HEAD
 .navButtons li:hover {
 	color: white;
 }
-
-
-
-=======
->>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
 li {
 	list-style: none;
 }
@@ -351,6 +347,73 @@ select {
 	letter-spacing: 5px;
 	padding: 10px;
 }
+
+/*
+Css for login page
+*/
+.loginPageContent{
+   
+    width: 500px;
+    height: 200px;
+    margin: auto;  
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #cdc390;
+}
+#username{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#password{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#submit{
+    width: 494px;
+    height: 46px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#submit:hover{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 495px;
+    height: 47px;
+}
+p{
+	padding: 10px;
+	text-align: justify;
+}
+h2{
+	padding: 10px;
+}
+.mainopleiding {
+	width: 1050px;
+	height: auto;
+	float: left;
+	border: 1px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
+}
+
+
+
+
+
+
 
 /*
 Css for login page
