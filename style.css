@@ -132,6 +132,21 @@ body {
 	box-shadow: 0px 5px 5px 5px grey;
 	
 }
+<<<<<<< HEAD
+
+.navButtons {
+	
+	width: 290px;
+	height: 45px;
+}
+
+.navButtons li{
+	color: black;
+}
+
+.navButtons:hover {
+	color: white;
+=======
 #navigate a {
 	line-height: 2.1;
 }
@@ -147,9 +162,19 @@ body {
 }
 
 #navButtons:hover {
+>>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
 	background-color: #b4292e;
 	
 }
+<<<<<<< HEAD
+.navButtons li:hover {
+	color: white;
+}
+
+
+
+=======
+>>>>>>> 3ef27f0c524c298a06820406b7b2621256148aba
 li {
 	list-style: none;
 }
