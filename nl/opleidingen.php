@@ -40,7 +40,7 @@ session_start();
 						Het zijn vooral de probleemoplossers die verder kijken en begrijpen dat elke technische oplossing past in een complex plaatje
 						waarin mobiliteit nog slimmer, schoner, goedkoper en efficiënter moet.
 						‘Compleet voertuig denken’ noemen we dat.
-						Dat leer je in Hogeveen. Stap in en Drive your Future.
+						Dat leer je in 'T Veenhoog. Stap in en Drive your Future.
 					</p>
 					<br>
 					<br>

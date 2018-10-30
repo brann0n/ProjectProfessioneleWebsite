@@ -33,10 +33,9 @@
 						With smart applications of ICT, electronics and lightweight construction, but also by the use of electric or hybrid drives.
 					</p><br><p>
 						The hero's in this story are the engineers from 'T Veenhoog.
-						Het zijn vooral de probleemoplossers die verder kijken en begrijpen dat elke technische oplossing past in een complex plaatje
-						waarin mobiliteit nog slimmer, schoner, goedkoper en efficiënter moet.
-						‘Compleet voertuig denken’ noemen we dat.
-						Dat leer je in Hogeveen. Stap in en Drive your Future.
+						It is mainly the problem solvers who look further and understand that every technical solution
+						fits into a complex picture in which mobility must be even smarter, cleaner, cheaper and more efficient.
+						We call that 'complete vehicle thinking'. You learn that in 'T Veenhoog. Stap in en Drive your Future.
 					</p>
 					<br>
 					<br>
@@ -55,10 +54,10 @@
 					<div class="navFooterLeft">
 						<ul>
 							<li class="footerTopElement">T' Veenhoog:</li>
-							<li><a href="opleidingen.php">Opleidingen</a></li>
-							<li><a href="inschrijven.php">Inschrijven</a></li>
-							<li><a href="opendagen.php">Open dagen</a></li>
-							<li><a href="evenementen.php">Evenementen</a></li>
+							<li><a href="opleidingen.php">Cources</a></li>
+							<li><a href="inschrijven.php">enroll</a></li>
+							<li><a href="opendagen.php">Open doors days</a></li>
+							<li><a href="evenementen.php">Events</a></li>
 							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</div>
