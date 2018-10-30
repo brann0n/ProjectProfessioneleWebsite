@@ -20,19 +20,19 @@
 						</div>
 					</div>
 				<div class="mainopleiding">
-					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
+					<div class="h2title"><h2>Here stands everything about our courses</h2></div>
 					<div class="h2subtitle"><h2>automotive</h2></div>
 					<br>
 					<p>
-						De wereld van auto’s en techniek zit in een van zijn spannendste fasen ooit.
-						Onze toekomstige mobiliteit vraagt namelijk om oplossingen die revolutionair anders zijn.
+						The world of cars and technology is in one of its most exciting phases ever.
+						Our future mobility requires solutions that are revolutionary.
 					</p><br><p>
-						Denk alleen al aan de eindigheid van fossiele brandstoffen en de uitstoot van schadelijke stoffen.
-						In die toekomst leren we creatiever omgaan met grondstoffen, leren we anders kijken naar de veiligheid van elke weggebruiker en bedenken we oplossingen die de files terugdringen.
-						Het goede nieuws is dat de automotive wereld daar nu al op topsnelheid mee experimenteert.
-						Met slimme toepassingen van ICT, elektronica en lichtgewicht construeren, maar ook door toepassing van elektrische of hybride aandrijvingen.
+						Just think about the finiteness of fossil fuels and the emission of harmful substances.
+						In that future we learn to deal more creatively with raw materials, we learn to look differently at the safety of every road user and we think of solutions that reduce traffic congestion.
+						The good news is that the automotive world is already experimenting at top speed.
+						With smart applications of ICT, electronics and lightweight construction, but also by the use of electric or hybrid drives.
 					</p><br><p>
-						De helden in dat verhaal zijn de automotive engineers van 'T Veenhoog.
+						The hero's in this story are the engineers from 'T Veenhoog.
 						Het zijn vooral de probleemoplossers die verder kijken en begrijpen dat elke technische oplossing past in een complex plaatje
 						waarin mobiliteit nog slimmer, schoner, goedkoper en efficiënter moet.
 						‘Compleet voertuig denken’ noemen we dat.

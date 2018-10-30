@@ -21,7 +21,7 @@
 					</div>
 				<div class="mainopleiding">
 					<div class="h2title"><h2>Hier staat alles over onze opleidingen</h2></div>
-					<h2>automotive</h2>
+					<div class="h2subtitle"><h2>automotive</h2></div>
 					<br>
 					<p>
 						De wereld van auto’s en techniek zit in een van zijn spannendste fasen ooit.
@@ -40,7 +40,7 @@
 					</p>
 					<br>
 					<br>
-					<h2>mechatronica</h2>
+					<div class="h2subtitle"><h2>mechatronica</h2></div>
 					<br>
 					<p>
 						Mechatronica is een multidisciplinaire combinatie van elektrotechniek, werktuigbouwkunde en technische informatica.
