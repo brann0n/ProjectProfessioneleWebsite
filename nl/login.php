@@ -116,18 +116,18 @@ if (isset($_POST["submit"])) {
                     </div>
                 </div>	
             </div>
-            <div class="language">
-                <a href="../nl/login.php">
-                    <div class="languageDutch">	
-                        <h3>Nederlands</h3>
-                    </div>
-                </a>
-                <a href="../en/login.php">
-                    <div class="languageEnglish">
-                        <h3>English</h3>
-                    </div>
-                </a>
-            </div>
+            <div class="rightBlok">
+				<a href="login.php">
+					<div class="languageDutch">	
+						<h3>Nederlands</h3>
+					</div>
+				</a>
+				<a href="../en/login.php">
+					<div class="languageEnglish">
+						<h3>English</h3>
+					</div>
+				</a>
+			</div>
         </div>
     </body>
 </html>
