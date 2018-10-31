@@ -8,24 +8,22 @@
 	<body>
 		<div class="centering">
 				<div class="logo">
-					<a href="index.php"><img src="../../image/logo.png" alt="logo" /></a>
+					<a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
 				</div>
-
-			
 			<div class="mainBody">
-					<div class="mainHeader">
-						<div class="h1Title">
-							<h1>Technische Hogeschool 'T Veenhoog</h1>
-						</div>
+				<div class="mainHeader">
+					<div class="h1Title">
+						<h1>Technische Hogeschool 'T Veenhoog</h1>
 					</div>
+				</div>
 				<div class="mainContent">
-					<div class="loginTemp">
-						<div class="buttonTextStyle">
-							<a href="login.php">Login</a>
-						</div>
-					</div>
-					
-					<!-- Voeg hier je code toe-->
+				<!-- Voer hier je data in -->
+				
+				
+				
+				
+				
+			
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
@@ -41,10 +39,8 @@
 					<div class="navFooterCenter">
 						<ul>
 							<li class="footerTopElement">Onze partners:</li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
+							<li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
+							<li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
 						</ul>
 					</div>
 					<div class="navFooterRight">
@@ -62,15 +58,20 @@
 					</div>
 				</div>	
 			</div>
-			<div class="language">
+			<div class="rightBlok">
 				<a href="index.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="indexE.php">
+				<a href="../en/index.php">
 					<div class="languageEnglish">
 						<h3>English</h3>
+					</div>
+				</a>
+				<a href="signout.php">
+					<div class="loginRight">	
+						<h3>Login</h3>
 					</div>
 				</a>
 			</div>
