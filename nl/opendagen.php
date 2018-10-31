@@ -9,7 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Opendagen</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
-        <link rel="stylesheet" type="text/css" href="../opendagen.css">
+        <link rel="stylesheet" type="text/css" href="../nl/opendagen.css">
     </head>
     <body>
         <div class="centering">
@@ -23,8 +23,7 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="mainContent">
-                    
-                    
+                    <h2 class="hopendagen">Open dagen</h2>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
