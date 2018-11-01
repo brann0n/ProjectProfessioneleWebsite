@@ -101,7 +101,7 @@ session_start();
                         <h3>English</h3>
                     </div>
                 </a>
-                <a href="signout.php">
+                <a href="login.php">
                     <div class="loginRight">	
                         <h3>Login</h3>
                     </div>
