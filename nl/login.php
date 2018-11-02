@@ -47,6 +47,7 @@ if (isset($_POST["submit"])) {
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="icon" href="../image/logo.png">
         <title>T' Veenhoog</title>
     </head>
     <body>
@@ -54,8 +55,6 @@ if (isset($_POST["submit"])) {
             <div class="logo">
                 <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
             </div>
-
-
             <div class="mainBody">
 
                 <div class="mainHeader">
