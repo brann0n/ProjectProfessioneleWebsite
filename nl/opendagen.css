@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 
 .hopendagen{
-  text-shadow: 2px 2px #b4292e;
+  text-shadow: 2px 2px black ;
   font-size: 22pt;
+  color: #b4292e;
 }
