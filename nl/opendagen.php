@@ -29,6 +29,9 @@ session_start();
                         Kom dan naar onze open dagen.</p>
                     </div>
                     <div class="dataopendagen">
+                        <div class="datums">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                        </div>
                         
                     </div>
                 </div>
