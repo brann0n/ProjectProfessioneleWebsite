@@ -102,10 +102,19 @@ session_start();
                     </div>
                 </a>
                 <?php
-                if ($_SESSION["authenticated"]) {
-                    echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
                 } else {
-                    echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
                 }
                 ?>
             </div>
