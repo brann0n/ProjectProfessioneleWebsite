@@ -101,11 +101,10 @@ session_start();
                         <h3>English</h3>
                     </div>
                 </a>
-                <?php 
-                if($_SESSION["authenticated"]){
+                <?php
+                if ($_SESSION["authenticated"]) {
                     echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
-                }
-                else{
+                } else {
                     echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
                 }
                 ?>
