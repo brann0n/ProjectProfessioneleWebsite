@@ -67,16 +67,31 @@ if (isset($_POST["submit"])) {
                     <!--This is the signin form-->
                     <div class="loginPageContent">
                         <?php
-                        if (!$_SESSION["authenticated"]) {
-                            echo "<form action=\"login.php\" method=\"POST\">";
-                            echo "<label id=\"errorMessage\">$errorMessage</label>";
-                            echo "<input type=\"text\" placeholder=\"Uw gebruikersnaam\" id=\"username\" name=\"username\" >";
-                            echo "<input type=\"password\" placeholder=\"Uw wachtwoord\" id=\"password\" name=\"password\" >";
-                            echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"Inloggen\">";
-                            echo "</form>";
+                        if (isset($_SESSION["authenticated"])) {
+                            if (!$_SESSION["authenticated"]) {
+                                echo "<form action=\"login.php\" method=\"POST\">";
+                                echo "<label id=\"errorMessage\">$errorMessage</label>";
+                                echo "<input type=\"text\" placeholder=\"Uw gebruikersnaam\" id=\"username\" name=\"username\" >";
+                                echo "<input type=\"password\" placeholder=\"Uw wachtwoord\" id=\"password\" name=\"password\" >";
+                                echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"Inloggen\">";
+                                echo "</form>";
+                            } else {
+                                echo "<h2>Je bent al ingelogd.</h2> <a href='index.php'>ga terug naar home</a>";
+                                echo "<br> Of klik <a href=\"signout.php\">hier</a> om uit te loggen.";
+                            }
                         } else {
-                            echo "<h2>Je bent al ingelogd.</h2> <a href='index.php'>ga terug naar home</a>";
-                            echo "<br> Of klik <a href=\"signout.php\">hier</a> om uit te loggen.";
+                            $_SESSION["authenticated"] = false;
+                            if (!$_SESSION["authenticated"]) {
+                                echo "<form action=\"login.php\" method=\"POST\">";
+                                echo "<label id=\"errorMessage\">$errorMessage</label>";
+                                echo "<input type=\"text\" placeholder=\"Uw gebruikersnaam\" id=\"username\" name=\"username\" >";
+                                echo "<input type=\"password\" placeholder=\"Uw wachtwoord\" id=\"password\" name=\"password\" >";
+                                echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"Inloggen\">";
+                                echo "</form>";
+                            } else {
+                                echo "<h2>Je bent al ingelogd.</h2> <a href='index.php'>ga terug naar home</a>";
+                                echo "<br> Of klik <a href=\"signout.php\">hier</a> om uit te loggen.";
+                            }
                         }
                         ?>
                     </div>
