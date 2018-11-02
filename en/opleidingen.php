@@ -25,34 +25,38 @@ session_start();
 					</div>
 				<div class="mainopleiding">
 					<div class="h2title"><h2>Here stands everything about our courses</h2></div>
-					<div class="h2subtitle"><h2>automotive</h2></div>
-					<br>
-					<p>
-						The world of cars and technology is in one of its most exciting phases ever.
-						Our future mobility requires solutions that are revolutionary.
-					</p><br><p>
-						Just think about the finiteness of fossil fuels and the emission of harmful substances.
-						In that future we learn to deal more creatively with raw materials, we learn to look differently at the safety of every road user and we think of solutions that reduce traffic congestion.
-						The good news is that the automotive world is already experimenting at top speed.
-						With smart applications of ICT, electronics and lightweight construction, but also by the use of electric or hybrid drives.
-					</p><br><p>
-						The hero's in this story are the engineers from 'T Veenhoog.
-						It is mainly the problem solvers who look further and understand that every technical solution
-						fits into a complex picture in which mobility must be even smarter, cleaner, cheaper and more efficient.
-						We call that 'complete vehicle thinking'. You learn that in 'T Veenhoog. Stap in en Drive your Future.
-					</p>
-					<br>
-					<br>
-					<div class="h2subtitle"><h2>mechatronica</h2></div>
-					<br>
-					<p>
-						Mechatronics is a multidisciplinary combination of electrical engineering, mechanical engineering and technical informatics.
-						In this course you are a logical thinker and a real doer.
-						You consider how to make devices safer or more user-friendly and you design them.
-						Think of an automated car wash, a smart production robot, or an advanced wheelchair or replacement robotic arm within the healthcare sector.
-						Modern humanity can no longer do without mechatronics and there is a great need for well-trained mechatronics engineers.
-						At 'T Veenhoog, we get to know the theory and practice and we train you to become a specialist in the systematic design of, among other things, control techniques for robot-controlled products and machines.
-					</p>
+						<div class="box-opleiding">
+						<div class="h2subtitle"><h2>Automotive</h2></div>
+						<br>
+						<p>
+							The world of cars and technology is in one of its most exciting phases ever.
+							Our future mobility requires solutions that are revolutionary.
+						</p><br><p>
+							Just think about the finiteness of fossil fuels and the emission of harmful substances.
+							In that future we learn to deal more creatively with raw materials, we learn to look differently at the safety of every road user and we think of solutions that reduce traffic congestion.
+							The good news is that the automotive world is already experimenting at top speed.
+							With smart applications of ICT, electronics and lightweight construction, but also by the use of electric or hybrid drives.
+						</p><br><p>
+							The hero's in this story are the engineers from 'T Veenhoog.
+							It is mainly the problem solvers who look further and understand that every technical solution
+							fits into a complex picture in which mobility must be even smarter, cleaner, cheaper and more efficient.
+							We call that 'complete vehicle thinking'. You learn that in 'T Veenhoog. Stap in en Drive your Future.
+						</p>
+						<br>
+						<br>
+					</div>
+					<div class="box-opleiding">
+						<div class="h2subtitle"><h2>Mechatronica</h2></div>
+						<br>
+						<p>
+							Mechatronics is a multidisciplinary combination of electrical engineering, mechanical engineering and technical informatics.
+							In this course you are a logical thinker and a real doer.
+							You consider how to make devices safer or more user-friendly and you design them.
+							Think of an automated car wash, a smart production robot, or an advanced wheelchair or replacement robotic arm within the healthcare sector.
+							Modern humanity can no longer do without mechatronics and there is a great need for well-trained mechatronics engineers.
+							At 'T Veenhoog, we get to know the theory and practice and we train you to become a specialist in the systematic design of, among other things, control techniques for robot-controlled products and machines.
+						</p>
+					</div>	
 				</div>
 				<div class="mainFooter">
 					<div class="navFooterLeft">
