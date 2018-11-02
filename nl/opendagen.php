@@ -28,6 +28,9 @@ session_start();
                         <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
                         Kom dan naar onze open dagen.</p>
                     </div>
+                    <div class="dataopendagen">
+                        
+                    </div>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">

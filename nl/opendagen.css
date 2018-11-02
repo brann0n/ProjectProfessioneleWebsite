@@ -31,3 +31,19 @@ p{
     padding: 10px;
     
 }
+
+.imgcalander{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.textdatum{
+    font-weight: bold;
+}
+
+.dataopendagen{
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+}
