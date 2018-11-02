@@ -1,3 +1,480 @@
-#inschrijftekst {
-    color: black;
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana;
+}
+/* Logo */
+.logo {
+	float: left;
+	width: 149px;
+	height: 130px;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
+	
+}
+.centering {
+	width: 1350px;
+	height: 905px;
+	margin: 0px auto;
+}
+/* Language */
+.rightBlok {
+	float: left;
+	width: 143px;
+	height: 130px;
+	text-align: center;
+}
+.languageDutch {
+	width: 143px;
+	height: 64px;
+	background-color: #b4292e;
+	border: 3px solid black;
+	line-height: 60px;
+	box-shadow: 5px 5px 5px 0px grey;
+}
+
+.languageEnglish {
+	width: 143px;
+	height: 64px;
+	background-color: #b4292e;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	box-shadow: 5px 5px 5px 0px grey;
+	line-height: 60px
+	
+}
+
+.loginRight {
+	width: 143px;
+	height: 64px;
+	background-color: #b4292e;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	line-height: 60px;
+	box-shadow: 5px 5px 5px 0px grey;
+	
+}
+
+.rightBlok a {
+	color: white;
+	line-height: 1.8;
+}
+.rightBlok a:hover {
+	color: black;
+}
+.languageDutch:hover {
+	background-color: #cdc390;
+	text-decoration: underline;
+}
+.languageEnglish:hover {
+	background-color: #cdc390;
+	text-decoration: underline;
+}
+.loginRight:hover {
+	background-color: #cdc390;
+	text-decoration: underline;
+}
+
+
+
+/* Body */
+.mainBody {
+	
+	float: left;
+	margin: 0px auto;
+	width: 1050px;
+	height: 905px;
+	
+	
+	
+}
+/* Header */
+.mainHeader {
+	background-color: #b4292e;
+	width: 1046px;
+	height: 130px;
+	border: 3px solid black;
+	float: left;
+	
+	
+	
+}
+
+
+#h1Titlestyle{
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 10px;
+	color: white;
+	
+}
+
+.h1Title {
+		margin-top: 20px;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	letter-spacing: 5px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+}
+/* background */
+body {
+	background-image: url("image/cogs.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center 300px;
+	
+	
+	
+}
+/* Content */
+.mainContent {
+	width: 1050px;
+	float: left;
+	border: 1px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
+}
+
+/* Navigation */
+#navigate {
+	font-size: 20px;
+	width: 330px;
+	height: 245px;
+	background-color: #cdc390;
+	float: left;
+	margin-top: 70px;
+	margin-left: 40px;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px 5px grey;
+	
+}
+
+.navButtons {
+	padding: 2px;
+	width: 326px;
+	height: 45px;
+}
+
+.navButtons li{
+	color: black;
+}
+
+.navButtons:hover {
+	color: white;
+	background-color: #b4292e;
+	text-decoration: underline;
+	
+}
+.navButtons li:hover {
+	color: white;
+}
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+
+/* Background image */
+#bgImage {
+	background-image: url('image/bg.png');
+	width: 1050px;
+	height: 434px;
+	background-position: center;
+}
+
+/* Buttons */
+#loginButton {
+	background-color: #cdc390;
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 76px;
+	border: 3px solid black;
+	box-shadow: 0px 5px 5px 5px grey;
+	border-radius: 5px;
+		
+}
+#loginButton:hover {
+	background-color: #b4292e;
+	color: white;
+}
+
+
+
+
+.buttonTextStyle {
+	
+	margin-top: 15px;
+	text-decoration: underline;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.buttonTextStyle:hover {
+	color:white;
+}
+.loginTemp {
+	float: right;
+	background-color: #cdc390;
+	width: 200px;
+	height: 60px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	
+}
+
+#searchFunction {
+	background-color: #cdc390;
+	width: 400px;
+	height: 60px;
+	float: left;
+	border: 3px solid black;
+	box-shadow: 0px 5px 5px 5px grey;
+	border-radius: 5px;
+}
+select {
+	
+	width: 190px;
+	height: 30px;
+	
+}
+
+.newsTextStyle {
+	margin-top: 15px;
+	margin-left: 5px;
+	font-size: 18px;
+	text-align: left;
+	
+}
+
+#newsLetterButton {
+	background-color: #cdc390;
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 40px;
+	margin-left: 76px;
+	border: 3px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px 5px grey;
+}
+
+
+#newsLetterButton:hover {
+	background-color: #b4292e;
+	color: white;
+}
+/* Footer */
+
+.mainFooter {
+	width: 1046px;
+	height: 170px;
+	background-color: #b4292e;
+	float: left;
+	border: 3px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+
+}
+.mainFooter a:hover {
+	color:black;
+	text-decoration: underline;
+}
+.mainFooter a, li{
+	color: white;
+	line-height: 1.5;
+	
+}
+
+/* Left list */
+.navFooterLeft {
+	float:left;
+	width: 200px;
+	height: 136px;
+	margin-left: 100px;
+	margin-top: 10px;
+	
+}
+
+.footerTopElement {
+	text-decoration: underline;
+}
+
+/* Center list */
+.navFooterCenter {
+	float: left;
+	width: 200px;
+	height: 136px;
+	margin-left: 160px;
+	margin-top: 10px;
+}
+
+/* Right list */
+.navFooterRight {
+	float: right;
+	width: 207px;
+	height: 136px;
+	
+	margin-top: 10px;
+	
+}
+
+.footerTopElementSocial {
+	text-decoration: underline;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.socialStyle {
+	margin-left: 20px;
+	
+}
+
+
+.h2title{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+
+/*
+Css for login page
+*/
+.loginPageContent{
+   
+    width: 500px;
+    height: 200px;
+    margin: auto;  
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #cdc390;
+}
+#username{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#password{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#submit{
+    width: 494px;
+    height: 46px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#submit:hover{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 495px;
+    height: 47px;
+}
+p{
+	padding: 10px;
+	text-align: justify;
+}
+h2{
+	padding: 10px;
+}
+.mainopleiding {
+	width: 1050px;
+	height: auto;
+	float: left;
+	border: 1px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
+}
+
+
+
+
+
+
+
+/*
+Css for login page
+*/
+.loginPageContent{
+   
+    width: 500px;
+    height: 200px;
+    margin: auto;  
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #cdc390;
+}
+#username{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#password{
+    width: 478px;
+    height: 30px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#submit{
+    width: 494px;
+    height: 46px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+#submit:hover{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 495px;
+    height: 47px;
+}
+p{
+	padding: 10px;
+	text-align: justify;
+}
+h2{
+	padding: 10px;
+}
+.mainopleiding {
+	width: 1050px;
+	height: auto;
+	float: left;
+	border: 1px solid black;
+	box-shadow: 0px 10px 5px 5px grey;
+	background-color: white;
 }
