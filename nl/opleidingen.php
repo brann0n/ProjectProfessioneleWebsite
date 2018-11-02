@@ -4,7 +4,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="nl">
-	<head>
+	<link rel="icon" href="../image/logo.png" head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
@@ -69,10 +69,8 @@ session_start();
 					<div class="navFooterCenter">
 						<ul>
 							<li class="footerTopElement">Onze partners:</li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
+							<li><a href="https://www.nhlstenden.com/">NHLStenden</a></li>
+							<li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
 						</ul>
 					</div>
 					<div class="navFooterRight">
