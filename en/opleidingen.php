@@ -4,7 +4,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="nl">
-	<head>
+	<link rel="icon" href="../image/logo.png" head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<title>T' Veenhoog</title>
@@ -46,12 +46,12 @@ session_start();
 					<div class="h2subtitle"><h2>mechatronica</h2></div>
 					<br>
 					<p>
-						Mechatronica is een multidisciplinaire combinatie van elektrotechniek, werktuigbouwkunde en technische informatica.
-						In dit vak ben je een logische denker én een echte doener.
-						Je bedenkt hoe je apparaten veiliger of gebruiksvriendelijker maakt én je ontwerpt ze.
-						Denk daarbij aan een geautomatiseerde wasstraat, een slimme productierobot, of binnen de gezondheidszorg een geavanceerde rolstoel of vervangende robotarm.
-						De moderne mensheid kan niet meer zonder mechatronica en er is dan ook grote behoefte aan goedopgeleide mechatronica engineers.
-						Bij 'T Veenhoog leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
+						Mechatronics is a multidisciplinary combination of electrical engineering, mechanical engineering and technical informatics.
+						In this course you are a logical thinker and a real doer.
+						You consider how to make devices safer or more user-friendly and you design them.
+						Think of an automated car wash, a smart production robot, or an advanced wheelchair or replacement robotic arm within the healthcare sector.
+						Modern humanity can no longer do without mechatronics and there is a great need for well-trained mechatronics engineers.
+						At 'T Veenhoog, we get to know the theory and practice and we train you to become a specialist in the systematic design of, among other things, control techniques for robot-controlled products and machines.
 					</p>
 				</div>
 				<div class="mainFooter">
@@ -68,15 +68,13 @@ session_start();
 					<div class="navFooterCenter">
 						<ul>
 							<li class="footerTopElement">Onze partners:</li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
-							<li><a href="">(text)</a></li>
+							<li><a href="https://www.nhlstenden.com/">NHLStenden</a></li>
+							<li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
 						</ul>
 					</div>
 					<div class="navFooterRight">
 						<ul>
-							<li class="footerTopElementSocial">Volgs ons:</li>
+							<li class="footerTopElementSocial">Follow us:</li>
 							<li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
 							<a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
 							<a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
@@ -102,7 +100,7 @@ session_start();
 				</a>
 				<a href="login.php">
 					<div class="loginRight">	
-						<h3>Login</h3>
+						<h3>Sign in</h3>
 					</div>
 				</a>
 			</div>
