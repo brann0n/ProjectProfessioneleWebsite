@@ -34,9 +34,16 @@ session_start();
                         <div id="automotiveBox">
                             <h3>Automotive&GT;</h3>
                         </div>
+                        <div>
+                            <input type="checkbox" class="read-more-state" id="post-1" />
+
+                            <p class="read-more-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="read-more-target">Libero fuga facilis vel consectetur quos sapiente deleniti eveniet dolores tempore eos deserunt officia quis ab? Excepturi vero tempore minus beatae voluptatem!</span></p>
+
+                            <label for="post-1" class="read-more-trigger"></label>
+                        </div>
                         <?php
                         $rss = new DOMDocument();
-                        $rss->load('https://nl.hardware.info/updates/news.rss');
+                        $rss->load('http://feeds.feedburner.com/autonews/BreakingNews');
                         $feed = array();
                         foreach($rss ->getElementsByTagName('item') as $node){
                             $item = array(
@@ -68,7 +75,7 @@ session_start();
                         <div id="feedMecha">
                         <?php
                         $rss2 = new DOMDocument();
-                        $rss2->load('https://nl.hardware.info/updates/news.rss');
+                        $rss2->load('https://www.visionenrobotics.nl/feed/');
                         $feed2 = array();
                         foreach($rss2 ->getElementsByTagName('item') as $node2){
                             $item2 = array(
