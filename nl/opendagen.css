@@ -10,6 +10,24 @@ and open the template in the editor.
 
 .hopendagen{
   text-shadow: 2px 2px black ;
-  font-size: 22pt;
+  font-size: 19pt;
   color: #b4292e;
+  padding: 10px;
+}
+
+.hopendagentwee{
+    text-shadow: 2px 2px black ;
+    color: #b4292e;
+    padding: 10px;
+    
+}
+
+.voorwoord{
+    height: 200px ;
+    width: 450px;
+}
+
+p{
+    padding: 10px;
+    
 }

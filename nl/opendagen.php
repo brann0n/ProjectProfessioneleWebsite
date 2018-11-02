@@ -8,6 +8,7 @@ session_start();
         <title>Opendagen</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="stylesheet" type="text/css" href="../nl/opendagen.css">
+        <link rel="icon" href="../image/logo.png">
     </head>
     <body>
         <div class="centering">
@@ -21,7 +22,12 @@ session_start();
                     </div>
                 </div>
                 <div class="mainContent">
-                    <h2 class="hopendagen">Open dagen</h2>
+                    <h1 class="hopendagentwee">Open dagen</h1>
+                    <div class="voorwoord">
+                        <h2 class="hopendagen">De school leren kennen</h2>
+                        <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
+                        Kom dan naar onze open dagen.</p>
+                    </div>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
@@ -67,16 +73,26 @@ session_start();
                         <h3>English</h3>
                     </div>
                 </a>
-                <a href="signout.php">
-                    <div class="loginRight">	
-                        <h3>Login</h3>
-                    </div>
-                </a>
+                <?php
+                // control login
+
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
             </div>
         </div>
-        <?php
-        // control login
-        
-        ?>
+
     </body>
 </html>
