@@ -29,7 +29,7 @@ session_start();
                     <div class="voorwoord">
                         <h2 class="hopendagen">Get to know the school better</h2>
                         <p>Do you want to know the school better, or do you want get to know the educations better? 
-                        Just com to our open houses. This school year, 2018-2019, we organized a few open houses for you.</p>
+                        Just come to our open houses. This school year, 2018-2019, we organized a few open houses for you.</p>
                     </div>
                     <h2 class="hopendagen">Where and when?</h2>
                     <div class="dataopendagen">
