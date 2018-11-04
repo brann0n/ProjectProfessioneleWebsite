@@ -13,13 +13,14 @@ and open the template in the editor.
   font-size: 19pt;
   color: #b4292e;
   padding: 10px;
+  width: 450px;
 }
 
 .hopendagentwee{
     text-shadow: 2px 2px black ;
     color: #b4292e;
     padding: 10px;
-    
+    width: 450px;
 }
 
 .voorwoord{
@@ -33,24 +34,48 @@ p{
 }
 
 .imgcalander{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+    float: left;
     
 }
 
 .textdatum{
     font-weight: bold;
     float: left;
+    padding: 2px;
+    padding-left: 10px;
+    
+}
+
+.textdatumtwee{
+    float: left;
+    padding: 2px;
+    padding-left: 10px;
+    color: #3674d8;
+    
 }
 
 .dataopendagen{
     padding: 10px;
-    height: 500px;
-    width: 600px;
+    height: 450px;
+    width: 750px;
 }
 
-.datums{
+.datumsleft{
     float:left;
     width: 300px;
-    height: 250px;
+    height: 100px;
+}
+
+.datumsright{
+    float: right;
+    width: 300px;
+    height: 100px;
+}
+
+.hopendagendrie{
+  text-shadow: 2px 2px black ;
+  font-size: 19pt;
+  color: #b4292e;
 }

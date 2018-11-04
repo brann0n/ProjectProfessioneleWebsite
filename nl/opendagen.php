@@ -26,11 +26,57 @@ session_start();
                     <div class="voorwoord">
                         <h2 class="hopendagen">De school leren kennen</h2>
                         <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
-                        Kom dan naar onze open dagen.</p>
+                        Kom dan naar onze open dagen. In het schooljaar 2018-2019 hebben we voor jullie een aantal open dagen georganiseerd.</p>
                     </div>
+                    <h2 class="hopendagen">Waar en wanneer?</h2>
                     <div class="dataopendagen">
-                        <div class="datums">
+                        <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 17 november</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                        <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 26 januari</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 28 november</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 13 februari</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 15 december</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 23 februari</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 16 januari</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 13 maart</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
                         </div>
                         
                     </div>
