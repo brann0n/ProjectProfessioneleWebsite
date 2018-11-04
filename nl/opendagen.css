@@ -26,6 +26,14 @@ and open the template in the editor.
 .imgschool{
     padding: 10px;
     float: right;
+    width: 570px;
+    height: 300px;
+}
+
+.imgafmeting{
+    width: 550px;
+    height: 300px;
+    
 }
 
 .voorwoord{
