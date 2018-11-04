@@ -23,6 +23,9 @@ session_start();
                 </div>
                 <div class="mainContent">
                     <h1 class="hopendagentwee">Open dagen</h1>
+                    <div class="imgschool">
+                        
+                    </div>
                     <div class="voorwoord">
                         <h2 class="hopendagen">De school leren kennen</h2>
                         <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
