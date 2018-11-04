@@ -28,58 +28,58 @@ session_start();
                     <h1 class="hopendagentwee">Open house</h1>
                     <div class="voorwoord">
                         <h2 class="hopendagen">Get to know the school better</h2>
-                        <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
-                        Kom dan naar onze open dagen. In het schooljaar 2018-2019 hebben we voor jullie een aantal open dagen georganiseerd.</p>
+                        <p>Do you want to know the school better, or do you want get to know the educations better? 
+                        Just com to our open houses. This school year, 2018-2019, we organized a few open houses for you.</p>
                     </div>
                     <h2 class="hopendagen">Where and when?</h2>
                     <div class="dataopendagen">
                         <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">zaterdag 17 november</p>
+                            <p class="textdatum">Saturday 17 November</p>
                             <p class="textdatum">10:00-17:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                         <div class="datumsright">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">zaterdag 26 januari</p>
+                            <p class="textdatum">Saturday 26 January</p>
                             <p class="textdatum">10:00-17:00</p>
                             <p class="textdatumtwee">Locatie: Hoogeveen</p>
                         </div>
                          <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">woensdag 28 november</p>
+                            <p class="textdatum">Wednesday 28 November</p>
                             <p class="textdatum">14:00-21:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsright">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">woensdag 13 februari</p>
+                            <p class="textdatum">Wednesday 13 February</p>
                             <p class="textdatum">14:00-21:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">zaterdag 15 december</p>
+                            <p class="textdatum">Saturday 15 December</p>
                             <p class="textdatum">10:00-17:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsright">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">zaterdag 23 februari</p>
+                            <p class="textdatum">Saturday 23 February</p>
                             <p class="textdatum">10:00-17:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">woensdag 16 januari</p>
+                            <p class="textdatum">Wednesday 16 January</p>
                             <p class="textdatum">14:00-21:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsright">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
-                            <p class="textdatum">woensdag 13 maart</p>
+                            <p class="textdatum">Wednesday 13 March</p>
                             <p class="textdatum">14:00-21:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                         
                     </div>
@@ -88,23 +88,23 @@ session_start();
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="inschrijven.php">Inschrijven</a></li>
-                            <li><a href="opendagen.php">Open dagen</a></li>
-                            <li><a href="evenementen.php">Evenementen</a></li>
+                            <li><a href="opleidingen.php">Educations</a></li>
+                            <li><a href="inschrijven.php">Register</a></li>
+                            <li><a href="opendagen.php">Open houses</a></li>
+                            <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Onze partners:</li>
+                            <li class="footerTopElement">Our partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Volgs ons:</li>
+                            <li class="footerTopElementSocial">Follow us:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
