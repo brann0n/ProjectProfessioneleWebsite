@@ -118,12 +118,12 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="../nl/opendagen.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/opendagen.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
