@@ -20,11 +20,10 @@
                     <div id="bgImage">
                         <div id="navigate">
                             <ul>
-                                <a href="opleidingen.php"><div class="navButtons"><li>Courses</li></div></a>
-                                <a href="inschrijven.php"><div class="navButtons"><li>Enrol</li></div></a>
-                                <a href="opendagen.php"><div class="navButtons"><li>Open days</li></div></a>
-                                <a href="evenementen.php"><div class="navButtons"><li>Events</li></div></a>
-                                <a href="contact.php"><div class="navButtons"><li>Contact</li></div></a>
+                                <li><a href="opleidingen.php"><div class="navButtons">Courses</div></a></li>
+                                <li><a href="opendagen.php"><div class="navButtons">Open days</div></a></li>
+                                <li><a href="evenementen.php"><div class="navButtons">Events</div></a></li>
+                                <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
                             </ul>
                         </div>
                     </div>
