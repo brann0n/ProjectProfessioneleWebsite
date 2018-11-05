@@ -90,7 +90,7 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="../nl/index.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
