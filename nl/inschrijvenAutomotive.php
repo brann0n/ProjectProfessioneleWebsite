@@ -22,11 +22,28 @@ session_start();
                 </div>
                 <div class="mainContent">
                     <div id="bgImage">
+                        <div class="informatieInschrijven">
+                            <p>Je wilt je inschrijven voor de opleiding Automotive (voltijd, Bachelor).  We helpen je graag door de procedure. 
+                                Met je verzoek tot inschrijving zet je de eerste stap richting jouw vervolgstudie: je geeft aan dat je een opleiding bij Technishe Hogeschool T' Veenhoog wilt volgen.
+                                Als je wilt, kun je je inschrijving nog tot de uiterste inschrijfdatum aanpassen.</p>
 
+                            <h2>Eerst checken</h2>
+                            <ul>
+                                <li class="checken">&#10004; Voldoe je aan alle toelatingseisen? Heb je het benodigde diploma en profiel wanneer je met de opleiding &nbsp&nbsp&nbsp begint? Moet je misschien nog een toelatingsexamen doen? 
+                                    Check het voor de zekerheid.</li>
+                                <li class="checken">&#10004; Heb je een DigiD? <a id="digid" href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></li>                                
+                            </ul>
+                            <h2>Inschrijven werkt zo</h2>
+                            
+                            <a href="https://student.sl-cloud.nl/">
+                                <div class="inschrijvenStudielink">	
+                                    <h3>Inschrijven via Studielink</h3>
+                                </div>
+                            </a>
+                            
+                            <p></p>
+                        </div>
                     </div>
-
-
-
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
