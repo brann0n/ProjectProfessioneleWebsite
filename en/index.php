@@ -73,7 +73,7 @@ session_start();
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Onze partners:</li>
+                            <li class="footerTopElement">Our partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
