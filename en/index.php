@@ -80,7 +80,7 @@ session_start();
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Volgs ons:</li>
+                            <li class="footerTopElementSocial">Follow us:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
