@@ -8,6 +8,7 @@ session_start();
         <title>Opendagen</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="stylesheet" type="text/css" href="../nl/opendagen.css">
+        <link rel="icon" href="../image/logo.png">
     </head>
     <body>
         <div class="centering">
@@ -21,7 +22,67 @@ session_start();
                     </div>
                 </div>
                 <div class="mainContent">
-                    <h2 class="hopendagen">Open dagen</h2>
+                    <div class="imgschool">
+                        <img class="imgafmeting" src="../image/schoolpictvh.png" alt="School">
+                    </div>
+                    <h1 class="hopendagentwee">Open dagen</h1>
+                    <div class="voorwoord">
+                        <h2 class="hopendagen">De school leren kennen</h2>
+                        <p>Wil je de school leren kennen, of wil je weten hoe de opleidingen zijn? 
+                        Kom dan naar onze open dagen. In het schooljaar 2018-2019 hebben we voor jullie een aantal open dagen georganiseerd.</p>
+                    </div>
+                    <h2 class="hopendagen">Waar en wanneer?</h2>
+                    <div class="dataopendagen">
+                        <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 17 november</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                        <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 26 januari</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 28 november</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 13 februari</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 15 december</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">zaterdag 23 februari</p>
+                            <p class="textdatum">10:00-17:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsleft">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 16 januari</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                         <div class="datumsright">
+                            <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
+                            <p class="textdatum">woensdag 13 maart</p>
+                            <p class="textdatum">14:00-21:00</p>
+                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
@@ -57,26 +118,36 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="../nl/opendagen.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/opendagen.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
                 </a>
-                <a href="signout.php">
-                    <div class="loginRight">	
-                        <h3>Login</h3>
-                    </div>
-                </a>
+                <?php
+                // control login
+
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
             </div>
         </div>
-        <?php
-        // control login
-        
-        ?>
+
     </body>
 </html>
