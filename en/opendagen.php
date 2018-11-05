@@ -43,7 +43,7 @@ session_start();
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
                             <p class="textdatum">Saturday 26 January</p>
                             <p class="textdatum">10:00-17:00</p>
-                            <p class="textdatumtwee">Locatie: Hoogeveen</p>
+                            <p class="textdatumtwee">Location: Hoogeveen</p>
                         </div>
                          <div class="datumsleft">
                             <img class="imgcalander" src="../image/calendartwee.png" alt="calendar">
