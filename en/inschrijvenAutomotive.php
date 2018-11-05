@@ -6,6 +6,7 @@ session_start();
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
+
         <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
@@ -17,54 +18,54 @@ session_start();
             <div class="mainBody">
                 <div class="mainHeader">
                     <div class="h1Title">
-                        <h1>Inschrijven Automotive</h1>
+                        <h1>Registration Automotive</h1>
                     </div>
                 </div>
                 <div class="mainContent">
-                        <div class="informatieInschrijven">
-                            <p>Je wilt je inschrijven voor de opleiding Automotive (voltijd, Bachelor).  We helpen je graag door de procedure. 
-                                Met je verzoek tot inschrijving zet je de eerste stap richting jouw vervolgstudie: je geeft aan dat je een opleiding bij Technishe Hogeschool T' Veenhoog wilt volgen.
-                                Als je wilt, kun je je inschrijving nog tot de uiterste inschrijfdatum aanpassen.</p>
+                    <div class="informatieInschrijven">
+                        <p>You want to enroll for the Automotive (full-time, Bachelor) program. We are happy to help you through the procedure.
+                            With your application for enrollment you take the first step towards your follow-up study: you indicate that you want to follow a course at NHL Stenden University.
+                            If you wish, you can still change your registration until the registration deadline.</p>
 
-                            <h2>Eerst checken</h2>
-                            <ul>
-                                <li class="checken">&#10004; Voldoe je aan alle toelatingseisen? Heb je het benodigde diploma en profiel wanneer je met de opleiding &nbsp&nbsp&nbsp begint? Moet je misschien nog een toelatingsexamen doen? 
-                                    Check het voor de zekerheid.</li>
-                                <li class="checken">&#10004; Heb je een DigiD? <a id="digid" href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></li>                                
-                            </ul>
-                            <h2>Inschrijven werkt zo</h2>
-                            <?php
-                            $tellen = 1;
-                            $stappen = array("Maak een account aan. Je krijgt een persoonlijke Studielinkpagina.", "Vul hier je opleidingsdetails in. Voor havo- en vwo-scholieren verschijnt hier het subkopje ‘Vakken’. Vul &nbsp&nbsp&nbsp&nbsp hier je vakkenpakket in.",
-                                                "Kies voor ‘Mijn opleidingen/ Nieuwe inschrijving’ toevoegen:", "Selecteer de opleiding van jouw keuze. Je vindt de opleiding onder de officiële naam <b>Automotive</b>.", "Bevestig de opleiding.",
-                                                "Geef onder het kopje Instroommoment aan wanneer je met de opleiding wilt beginnen. Bevestig dit.", "Bevestig je inschrijving.",
-                                                "Voer je betaalgegevens in en bevestig deze. Dit kun je ook later doen, als het maar vóór je inschrijving &nbsp&nbsp&nbsp&nbsp is.", "Volg de status van je inschrijving op je persoonlijke Studielinkpagina.");
-                            foreach ($stappen as $stap) {
-                                echo '<p>' . $tellen . '. ' . $stap . '</p>';
-                                $tellen++;
-                            }
-                            ?>                            
-                            <a href="https://student.sl-cloud.nl/">
-                                <div class="inschrijvenStudielink">	
-                                    <h3>Inschrijven via Studielink</h3>
-                                </div>
-                            </a>
-                        </div>
+                        <h2>Check first</h2>
+                        <ul>
+                            <li class="checken">&#10004;Do you meet all admission requirements? Do you have the required diploma and profile when you start the study? Do you still have to take an entrance exam? Check it for security.</li>
+                            <li class="checken">&#10004;Do you have a DigiD? <a id="digid" href="https://digid.nl/aanvragen">Make a request right away!</a></li>                                
+                        </ul>
+                        <h2>Registration works like this</h2>
+                        <p>You submit your application for enrollment <u><a href="https://app.studielink.nl/front-office/?brinCode=31FR#52">on Studielink</a></u>, the registration portal of the Ministry of Education. You need DigiD for this. Follow the steps:</p>
+                        <?php
+                        $tellen = 1;
+                        $stappen = array("Create an account. You will receive a personal Studielink page.", "Enter your course details here. For HAVO and VWO pupils, the sub-heading 'Courses' appears here.
+                                            Enter &nbsp&nbsp&nbsp&nbsp your course package here.", "Choose 'Add My Training / New Registration':", "Select the course of your choice. You will find the study under the official name <b>Automotive.</b>",
+                                            "Confirm the study", "Under the Inflow moment heading, indicate when you want to start the study. Confirm this.", "Confirm your registration.", "Enter your payment details and confirm.
+                                            You can also do this later, if only before your registration.", "Follow the status of your registration on your personal Studielink page.");
+                        foreach ($stappen as $stap) {
+                            echo '<p>' . $tellen . '. ' . $stap . '</p>';
+                            $tellen++;
+                        }
+                        ?>                            
+                        <a href="https://student.sl-cloud.nl/">
+                            <div class="inschrijvenStudielink">	
+                                <h3>Register via Studielink</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="inschrijven.php">Inschrijven</a></li>
-                            <li><a href="opendagen.php">Open dagen</a></li>
-                            <li><a href="evenementen.php">Evenementen</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
+                            <li><a href="inschrijven.php">enroll</a></li>
+                            <li><a href="opendagen.php">Open doors days</a></li>
+                            <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Onze partners:</li>
+                            <li class="footerTopElement">Our partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
@@ -85,12 +86,12 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="../nl/inschrijvenMechatronica.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/inschrijvenMechatronica.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>

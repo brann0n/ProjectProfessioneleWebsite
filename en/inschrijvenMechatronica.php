@@ -7,7 +7,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" type="text/css" href="../nl/mechatronica.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
     <body>
@@ -22,44 +22,35 @@ session_start();
                     </div>
                 </div>
                 <div class="mainContent">
-                    <div>
-                        <p>You want to enroll for the <b> Mechatronics (full-time, Bachelor) </b> program. We are happy to help you through the procedure. </p>                        <p>Met je verzoek tot inschrijving zet je de eerste stap richting jouw vervolgstudie: je geeft aan dat je een opleiding bij NHL Stenden Hogeschool wilt volgen. Als je wilt, kun je je inschrijving nog tot de uiterste inschrijfdatum aanpassen. 
-                             <p> With your application for enrollment you take the first step towards your follow-up study: you indicate that you want to follow a course at NHL Stenden University. If you wish, you can still change your registration until the registration deadline.
-                         </p>
-                            <h2>Check first</h2>
-                            <ul >
-                                <li>
-                                    <p>&#10004;Do you meet all admission requirements? Do you have the required diploma and profile when you start the study? Do you still have to take an entrance exam? Check it for security. </p>
+                    <div class="informatieInschrijven">
+                        <p>You want to enroll for the Mechatronics (full-time, Bachelor) program. We are happy to help you through the procedure.
+                            With your application for enrollment you take the first step towards your follow-up study: you indicate that you want to follow a course at NHL Stenden University.
+                            If you wish, you can still change your registration until the registration deadline.</p>
 
-                                </li>
-                                <li>
-                                    <p>&#10004;Do you have a DigiD? <u><a href="https://digid.nl/aanvragen">Make a request right away</a></u></p>
-                                </li>
-                            </ul>
-                    </div>   
-                    <div>
+                        <h2>Check first</h2>
+                        <ul>
+                            <li class="checken">&#10004;Do you meet all admission requirements? Do you have the required diploma and profile when you start the study? Do you still have to take an entrance exam? Check it for security.</li>
+                            <li class="checken">&#10004;Do you have a DigiD? <a id="digid" href="https://digid.nl/aanvragen">Make a request right away!</a></li>                                
+                        </ul>
                         <h2>Registration works like this</h2>
                         <p>You submit your application for enrollment <u><a href="https://app.studielink.nl/front-office/?brinCode=31FR#52">on Studielink</a></u>, the registration portal of the Ministry of Education. You need DigiD for this. Follow the steps:</p>
-
-                        <ol>
-                            <?php
-                            $tellen = 1;
-                            $stappen = array("Create an account. You will receive a personal Studielink page.", "Enter your course details here. For HAVO and VWO pupils, the sub-heading 'Courses' appears here. Enter your course package here.", "Choose 'Add My Training / New Registration':", "Select the course of your choice. You will find the study under the official name <b>Mechatronics.</b>", "Confirm the study", "Under the Inflow moment heading, indicate when you want to start the study. Confirm this.", "Confirm your registration.", "Enter your payment details and confirm. You can also do this later, if only before your registration.", "Follow the status of your registration on your personal Studielink page.");
-                            foreach ($stappen as $stap) {
-                                echo '<p>' . $tellen . '. ' . $stap . '</p>';
-                                $tellen++;
-                            }
-                            ?>
-                        </ol>
+                        <?php
+                        $tellen = 1;
+                        $stappen = array("Create an account. You will receive a personal Studielink page.", "Enter your course details here. For HAVO and VWO pupils, the sub-heading 'Courses' appears here.
+                                            Enter &nbsp&nbsp&nbsp&nbsp your course package here.", "Choose 'Add My Training / New Registration':", "Select the course of your choice. You will find the study under the official name <b>Mechatronics.</b>",
+                                            "Confirm the study", "Under the Inflow moment heading, indicate when you want to start the study. Confirm this.", "Confirm your registration.", "Enter your payment details and confirm.
+                                            You can also do this later, if only before your registration.", "Follow the status of your registration on your personal Studielink page.");
+                        foreach ($stappen as $stap) {
+                            echo '<p>' . $tellen . '. ' . $stap . '</p>';
+                            $tellen++;
+                        }
+                        ?>                            
+                        <a href="https://student.sl-cloud.nl/">
+                            <div class="inschrijvenStudielink">	
+                                <h3>Register via Studielink</h3>
+                            </div>
+                        </a>
                     </div>
-                    <div class="inschrijvenButton">	
-                        <a href="https://studielink.nl/"><h3>Registrate on Studielink</h3></a>
-                    </div>
-
-
-
-
-
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
