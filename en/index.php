@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -36,7 +40,7 @@
                     </a>
                     <div id="searchFunction">
                         <div class="newsTextStyle">
-                            Find your education:
+                            Find your course:
                             <select>
                                 <option value="meme">automotive</option>
                                 <option value="MEEM">mechatronica</option>
@@ -85,8 +89,8 @@
                     </div>
                 </div>	
             </div>
-            <div class="language">
-                <a href="../nl/index.php">
+            <div class="rightBlok">
+                <a href="index.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
@@ -96,7 +100,22 @@
                         <h3>English</h3>
                     </div>
                 </a>
-            </div>
+                <?php
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
         </div>
     </body>
 </html>
