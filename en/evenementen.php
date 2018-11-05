@@ -69,7 +69,7 @@ session_start();
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Cources</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
                             <li><a href="inschrijven.php">enroll</a></li>
                             <li><a href="opendagen.php">Open doors days</a></li>
                             <li><a href="evenementen.php">Events</a></li>
@@ -78,7 +78,7 @@ session_start();
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">our partners:</li>
+                            <li class="footerTopElement">Our partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
