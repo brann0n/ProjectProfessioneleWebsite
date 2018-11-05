@@ -25,28 +25,32 @@ session_start();
                         <div id="navigate">
                             <ul>
                                 <li><a href="opleidingen.php"><div class="navButtons">Opleidingen</div></a></li>
-                                <li><a href="opendagen.php"><div class="navButtons">Open dagen</div></a></li>
+                                <li><a href="inschrijven.php"><div class="navButtons">Inschrijven</div></a></li>
+								<li><a href="opendagen.php"><div class="navButtons">Open dagen</div></a></li>
                                 <li><a href="evenementen.php"><div class="navButtons">Evenementen</div></a></li>
                                 <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
                             </ul>
                         </div>
                     </div>
-                    <a href="login.php">
-                        <div id="loginButton">
+                    <a href="gallerij.php">
+                        <div id="galleryButton">
                             <div class="buttonTextStyle">
-                                Login
+                                Gallerij
                             </div>
                         </div>
                     </a>
-                    <div id="searchFunction">
-                        <div class="newsTextStyle">
-                            Vind jouw opleiding:
-                            <select>
-                                <option value="meme">Automotive</option>
-                                <option value="MEEM">Mechatronica</option>
-                            </select>			
+                    <div id="registerEducation">
+                        <a href="inschrijvenAutomotive.php">
+                            <div class="automotive">
+                                Automotive
+                            </div>
+                        </a>
+                        <a href="inschrijvenAutomotive.php">
+                            <div class="mechatronica">
+                                Mechatronica
+                            </div>		
+                        </a>
 
-                        </div>
                     </div>
                     <a href="nieuwsbrief.php">
                         <div id="newsLetterButton">
