@@ -17,45 +17,16 @@ session_start();
             <div class="mainBody">
                 <div class="mainHeader">
                     <div class="h1Title">
-                        <h1>Technische Hogeschool 'T Veenhoog</h1>
+                        <h1>Inschrijven Automotive</h1>
                     </div>
                 </div>
                 <div class="mainContent">
                     <div id="bgImage">
-                        <div id="navigate">
-                            <ul>
-                                <li><a href="opleidingen.php"><div class="navButtons">Opleidingen</div></a></li>
-                                <li><a href="inschrijven.php"><div class="navButtons">Inschrijven</div></a></li>
-                                <li><a href="opendagen.php"><div class="navButtons">Open dagen</div></a></li>
-                                <li><a href="evenementen.php"><div class="navButtons">Evenementen</div></a></li>
-                                <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a href="login.php">
-                        <div id="loginButton">
-                            <div class="buttonTextStyle">
-                                Login
-                            </div>
-                        </div>
-                    </a>
-                    <div id="searchFunction">
-                        <div class="newsTextStyle">
-                            Vind jouw opleiding:
-                            <select>
-                                <option value="meme">Automotive</option>
-                                <option value="MEEM">Mechatronica</option>
-                            </select>			
 
-                        </div>
                     </div>
-                    <a href="nieuwsbrief.php">
-                        <div id="newsLetterButton">
-                            <div class="buttonTextStyle">
-                                Nieuwsbrief
-                            </div>
-                        </div>
-                    </a>
+
+
+
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
