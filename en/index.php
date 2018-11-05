@@ -20,8 +20,8 @@
                     <div id="bgImage">
                         <div id="navigate">
                             <ul>
-                                <a href="opleidingen.php"><div id="navButtons"><li>Educations</li></div></a>
-                                <a href="inschrijven.php"><div id="navButtons"><li>Register</li></div></a>
+                                <a href="opleidingen.php"><div id="navButtons"><li>Courses</li></div></a>
+                                <a href="inschrijven.php"><div id="navButtons"><li>Enrol</li></div></a>
                                 <a href="opendagen.php"><div id="navButtons"><li>Open houses</li></div></a>
                                 <a href="evenementen.php"><div id="navButtons"><li>Events</li></div></a>
                                 <a href="contact.php"><div id="navButtons"><li>Contact</li></div></a>
@@ -57,8 +57,8 @@
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Educations</a></li>
-                            <li><a href="inschrijven.php">Register</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
+                            <li><a href="inschrijven.php">Enrol</a></li>
                             <li><a href="opendagen.php">Open houses</a></li>
                             <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
