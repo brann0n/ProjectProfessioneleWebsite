@@ -144,7 +144,7 @@ body {
 #navigate {
     font-size: 20px;
     width: 330px;
-    height: 200px;
+    height: 245px;
     background-color: #cdc390;
     float: left;
     margin-top: 70px;
@@ -194,22 +194,23 @@ a {
 }
 
 /* Buttons */
-#loginButton {
-    background-color: #cdc390;
-    width: 200px;
-    height: 60px;
-    float: left;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 76px;
-    border: 3px solid black;
-    box-shadow: 0px 5px 5px 5px grey;
-    border-radius: 5px;
-
+#galleryButton {
+	background-color: #cdc390;
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 76px;
+	margin-bottom: 100px;
+	border: 3px solid black;
+	box-shadow: 0px 5px 5px 5px grey;
+	border-radius: 5px;
+		
 }
-#loginButton:hover {
-    background-color: #b4292e;
-    color: white;
+#galleryButton:hover {
+	background-color: #b4292e;
+	color: white;
 }
 
 
@@ -227,24 +228,44 @@ a {
 .buttonTextStyle:hover {
     color:white;
 }
-.loginTemp {
-    float: right;
-    background-color: #cdc390;
-    width: 200px;
-    height: 60px;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-
+#registerEducation {
+	background-color: #cdc390;
+	width: 400px;
+	height: 60px;
+	float: left;
+	border: 3px solid black;
+	box-shadow: 0px 5px 5px 5px grey;
+	border-radius: 5px;
+        font-size: 18px;
+        text-decoration: underline;
 }
 
-#searchFunction {
-    background-color: #cdc390;
-    width: 400px;
-    height: 60px;
+.automotive {
     float: left;
-    border: 3px solid black;
-    box-shadow: 0px 5px 5px 5px grey;
-    border-radius: 5px;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+.automotive:hover {
+ 	background-color: #b4292e;
+	color: white;
+}
+
+.mechatronica {
+    float: left;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 15px;
+   
+}
+.mechatronica:hover {
+ 	background-color: #b4292e;
+	color: white;
+    
 }
 select {
 
@@ -505,36 +526,6 @@ h2{
     width: 300px;
     height: 60px;
     background-color: #b4292e;
-    border:  3px solid black;
-    text-align: center;
-    line-height: 55px;
-}
-
-.informatieInschrijven {
-    width: 900px;
-    margin-top: 30px;
-    margin-left: 76px;
-    background-color: #cdc390;
-    height: auto;
-    border: 3px solid black;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px 5px grey;
-}
-
-.checken {
-    color: black;
-    padding: 10px;
-}
-
-#digid {
-    color: blue;
-}
-
-.inschrijvenStudielink {
-    margin: 10px;
-    width: 300px;
-    height: 60px;
-    background-color: lightskyblue;
     border:  3px solid black;
     text-align: center;
     line-height: 55px;
