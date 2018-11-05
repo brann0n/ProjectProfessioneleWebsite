@@ -33,13 +33,13 @@ session_start();
  
                             </li>
                             <li>
-                                <p>&#10004;Heb je een DigiD? <a href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></p>
+                                <p>&#10004;Heb je een DigiD? <u><a href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></u></p>
                             </li>
                         </ul>
                        </div>   
                     <div>
                         <h2>Inschrijven werkt zo</h2>
-                        <p>Je dient je verzoek tot inschrijven in <a href="https://app.studielink.nl/front-office/?brinCode=31FR#52">via Studielink</a>, de inschrijfportal van het ministerie van Onderwijs. Hiervoor heb je DigiD nodig. Volg de stappen:</p>
+                        <p>Je dient je verzoek tot inschrijven in <u><a href="https://app.studielink.nl/front-office/?brinCode=31FR#52">via Studielink</a></u>, de inschrijfportal van het ministerie van Onderwijs. Hiervoor heb je DigiD nodig. Volg de stappen:</p>
                         <ol>
                           <?php
                           $tellen = 1;
@@ -51,6 +51,9 @@ session_start();
                           ?>
                         </ol>
                     </div>
+                    <div class="inschrijvenButton">	
+                        <a href="https://studielink.nl/"><h3>Inshrijven via Studielink</h3></a>
+                        </div>
                         
                     
 
