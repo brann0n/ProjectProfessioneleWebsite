@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../style.css">
@@ -25,28 +25,32 @@ session_start();
                         <div id="navigate">
                             <ul>
                                 <li><a href="opleidingen.php"><div class="navButtons">Courses</div></a></li>
-                                <li><a href="opendagen.php"><div class="navButtons">Open days</div></a></li>
+                                <li><a href="inschrijven.php"><div class="navButtons">Enroll course</div></a></li>
+				<li><a href="opendagen.php"><div class="navButtons">Open days</div></a></li>
                                 <li><a href="evenementen.php"><div class="navButtons">Events</div></a></li>
                                 <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
                             </ul>
                         </div>
                     </div>
-                    <a href="login.php">
-                        <div id="loginButton">
+                    <a href="gallerij.php">
+                        <div id="galleryButton">
                             <div class="buttonTextStyle">
-                                <p>Login</p>
+                                Gallery
                             </div>
                         </div>
                     </a>
-                    <div id="searchFunction">
-                        <div class="newsTextStyle">
-                            Find your course:
-                            <select>
-                                <option value="meme">automotive</option>
-                                <option value="MEEM">mechatronica</option>
-                            </select>			
+                    <div id="registerEducation">
+                        <a href="inschrijvenAutomotive.php">
+                            <div class="automotive">
+                                Automotive
+                            </div>
+                        </a>
+                        <a href="inschrijvenAutomotive.php">
+                            <div class="mechatronica">
+                                Mechatronica
+                            </div>		
+                        </a>
 
-                        </div>
                     </div>
                     <a href="nieuwsbrief.php">
                         <div id="newsLetterButton">
@@ -60,23 +64,23 @@ session_start();
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Courses</a></li>
-                            <li><a href="inschrijven.php">Enrol</a></li>
-                            <li><a href="opendagen.php">Open days</a></li>
-                            <li><a href="evenementen.php">Events</a></li>
+                            <li><a href="opleidingen.php">Opleidingen</a></li>
+                            <li><a href="inschrijven.php">Inschrijven</a></li>
+                            <li><a href="opendagen.php">Open dagen</a></li>
+                            <li><a href="evenementen.php">Evenementen</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Our partners:</li>
+                            <li class="footerTopElement">Onze partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Follow us:</li>
+                            <li class="footerTopElementSocial">Volgs ons:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
