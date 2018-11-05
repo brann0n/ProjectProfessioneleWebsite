@@ -21,8 +21,44 @@ session_start();
                     </div>
                 </div>
                 <div class="mainContent">
-                    <div id="bgImage"></div>
+                    <div id="bgImage">
+                        <?php
+                        $voornaamErr = $tussenvoegselErr = $achternaamErr = $geslachtErr = $geboortedatumErr = $emailErr = $adresErr = $woonplaatsErr = $opmerkingErr = $policyErr = "";
+                        $voornaam = $tussenvoegsel = $achternaam = $geslacht = $geboortedatum = $email = $adres = $woonplaats = $opmerking = $policy = "";
 
+                        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                            if (empty($_POST["naam"])) {
+                                $voornaamErr = "Naam is verplicht";
+                            } else {
+                                $voornaam = test_input($_POST["naam"]);
+
+                                if (!preg_match("/^[a-zA-Z]*$/", $voornaam)) {
+                                    $voornaamErr = "Only letters and white space allowed";
+                                }
+                            }
+
+                            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                                
+                            } else {
+                                $tussenvoegsel = test_input($_POST["tussenvoegsel"]);
+
+                                if (!preg_match("/^[a-zA-Z]*$/", $tussenvoegsel)) {
+                                    $tussenvoegselErr = "Only letters and white space allowed";
+                                }
+                            }
+                            
+                            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                                if (empty($_POST["naam"])) {
+                                    $voornaamErr = "Naam is verplicht";
+                                } else {
+                                    $voornaam = test_input($_POST["naam"]);
+
+                                    if (!preg_match("/^[a-zA-Z]*$/", $voornaam)) {
+                                        $voornaamErr = "Only letters and white space allowed";
+                                    }
+                                }
+                                ?>
+                    </div>
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
