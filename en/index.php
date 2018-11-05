@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -20,11 +24,10 @@
                     <div id="bgImage">
                         <div id="navigate">
                             <ul>
-                                <a href="opleidingen.php"><div id="navButtons"><li>Courses</li></div></a>
-                                <a href="inschrijven.php"><div id="navButtons"><li>Enrol</li></div></a>
-                                <a href="opendagen.php"><div id="navButtons"><li>Open days</li></div></a>
-                                <a href="evenementen.php"><div id="navButtons"><li>Events</li></div></a>
-                                <a href="contact.php"><div id="navButtons"><li>Contact</li></div></a>
+                                <li><a href="opleidingen.php"><div class="navButtons">Courses</div></a></li>
+                                <li><a href="opendagen.php"><div class="navButtons">Open days</div></a></li>
+                                <li><a href="evenementen.php"><div class="navButtons">Events</div></a></li>
+                                <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,7 +40,7 @@
                     </a>
                     <div id="searchFunction">
                         <div class="newsTextStyle">
-                            Find your education:
+                            Find your course:
                             <select>
                                 <option value="meme">automotive</option>
                                 <option value="MEEM">mechatronica</option>
@@ -86,7 +89,7 @@
                     </div>
                 </div>	
             </div>
-            <div class="language">
+            <div class="rightBlok">
                 <a href="../nl/index.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
@@ -97,6 +100,22 @@
                         <h3>English</h3>
                     </div>
                 </a>
+                <?php
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
             </div>
         </div>
     </body>
