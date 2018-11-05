@@ -2,7 +2,7 @@
 <?php
 session_start();
 ?>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Opendagen</title>
@@ -90,7 +90,7 @@ session_start();
                             <li class="footerTopElement">T' Veenhoog:</li>
                             <li><a href="opleidingen.php">Courses</a></li>
                             <li><a href="inschrijven.php">Enrol</a></li>
-                            <li><a href="opendagen.php">Open houses</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
                             <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>

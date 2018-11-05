@@ -2,7 +2,7 @@
 <?php
 session_start();
 ?>
-<html>
+<html lang="nl">
     <head>
         <meta charset="UTF-8">
         <title>Opendagen</title>
