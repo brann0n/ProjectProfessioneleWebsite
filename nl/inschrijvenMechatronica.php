@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 <?php
+// Start the session
 session_start();
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="nl">
     <head>
         <meta charset="UTF-8">
-        <title>Evenementen</title>
-        <link rel="stylesheet" type="text/css" href="evenementen.css">
-        <link rel="stylesheet" type="text/css" href="../style.css">
-        <link rel="icon" href="../image/logo.png">
+       
+        <link rel="stylesheet" type="text/css" href="mechatronica.css">
+        <title>T' Veenhoog</title>
     </head>
     <body>
         <div class="centering">
@@ -18,53 +18,44 @@ session_start();
             <div class="mainBody">
                 <div class="mainHeader">
                     <div class="h1Title">
-                        <h1>Technische Hogeschool 'T Veenhoog</h1>
+                        <h1>Inschrijven Mechatronica</h1>
                     </div>
                 </div>
-
                 <div class="mainContent">
-                    <div class="h2Title">
+                    <div>
+                        <p>Je wilt je inschrijven voor de opleiding <b>Mechatronica (voltijd, Bachelor)</b>.  We helpen je graag door de procedure. </p>
+                        <p>Met je verzoek tot inschrijving zet je de eerste stap richting jouw vervolgstudie: je geeft aan dat je een opleiding bij NHL Stenden Hogeschool wilt volgen. Als je wilt, kun je je inschrijving nog tot de uiterste inschrijfdatum aanpassen. 
+                        </p>
+                        <h2>Eerst checken</h2>
+                        <ul >
+                            <li>
+                                <p>&#10004;Voldoe je aan alle toelatingseisen? Heb je het benodigde diploma en profiel wanneer je met de opleiding begint? Moet je misschien nog een toelatingsexamen doen? Check het voor de zekerheid.</p>
+ 
+                            </li>
+                            <li>
+                                <p>&#10004;Heb je een DigiD? <a href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></p>
+                            </li>
+                        </ul>
+                       </div>   
+                    <div>
+                        <h2>Inschrijven werkt zo</h2>
+                        <p>Je dient je verzoek tot inschrijven in <a href="https://app.studielink.nl/front-office/?brinCode=31FR#52">via Studielink</a>, de inschrijfportal van het ministerie van Onderwijs. Hiervoor heb je DigiD nodig. Volg de stappen:</p>
+                        <ol>
+                          <?php
+                          $tellen = 1;
+                          $stappen = array("Maak een account aan. Je krijgt een persoonlijke Studielinkpagina.","Vul hier je opleidingsdetails in. Voor havo- en vwo-scholieren verschijnt hier het subkopje ‘Vakken’. Vul hier je vakkenpakket in.","Kies voor ‘Mijn opleidingen/ Nieuwe inschrijving’ toevoegen:","Selecteer de opleiding van jouw keuze. Je vindt de opleiding onder de officiële naam <b>Mechatronica</b>.","Bevestig de opleiding.","Geef onder het kopje Instroommoment aan wanneer je met de opleiding wilt beginnen. Bevestig dit.","Bevestig je inschrijving.","Voer je betaalgegevens in en bevestig deze. Dit kun je ook later doen, als het maar vóór je inschrijving is.","Volg de status van je inschrijving op je persoonlijke Studielinkpagina.");
+                         foreach($stappen as $stap){
+                             echo '<p>' . $tellen . '. ' . $stap . '</p>';
+                             $tellen++;
+                         }
+                          ?>
+                        </ol>
+                    </div>
+                        
+                    
 
-                        <h2>Evenementen</h2></div><div class="distance">
-                        <p>
-                            Er zijn een aantal evenementen georganiseerd waar iedereen aan mee mag doen, hieronder staan een aantal evenementen die in de start periode van het jaar plaats vinden. Je kan hier gewoon opkomen dagen, er hoeft verder geen betaling gedaan te worden en je hoeft je niet op te geven, daarentegen is het eten en drinken niet geregeld(m.u.v. feesten hier kan eten en drinken bij de bar gekocht worden).
-                        </p></div>
-                    <?php
-                    $evenementen = array("Intro-dag 1" => "09.00-14.00", "Intro-dag 2" => "10.30-14.00", "Intro eindfeest" => "20.00-24.00", "Sportdag" => "10.00-17.00", "Uitgebreide presentatie automotive" => "18.00-22.00", "Uitgebreide presentatie mechatronica" => "18.00-22.00");
-                    $Dag = 7;
-                    $maand = "September";
-                    ?>
-                    <div class="distance"><table border="1|0" class="borderTable">
-                            <tr>
-                                <th>
-                                    Evenement
-                                </th>
-                                <th>
-                                    Datum
-                                </th>
-                                <th>
-                                    Tijd
-                                </th>
-                            </tr>
-                            <?php
-                            foreach ($evenementen as $key2 => $value2) {
-                                if ($key2 == 'Sportdag') {
-                                    $Dag = 15;
-                                } else if ($key2 == 'Uitgebreide presentatie automotive') {
-                                    $Dag = 2;
-                                    $maand = "Oktober";
-                                }
-                                echo '<tr><td>' . $key2 . '</td><td>' . $Dag . ' ' . $maand . ' 2019</td><td>' . $value2 . '</td></tr>';
-                                $Dag++;
-                            }
-                            ?>
-                        </table></div>
-                    <div class="distance">
-                        <p>Voor meer informatie kun je via de contact pagina een bericht sturen. </p>
-                    </div>
-                    <div class="distance">
-                        <img src="../image/hoorcollege.jpg" alt="hoorcollege" class="College">
-                    </div>
+
+
                 </div>
                 <div class="mainFooter">
                     <div class="navFooterLeft">
@@ -100,19 +91,17 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="../nl/evenementen.php">
+                <a href="index.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/evenementen.php">
+                <a href="../en/index.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
                 </a>
                 <?php
-                // control login
-
                 if (isset($_SESSION["authenticated"])) {
                     if ($_SESSION["authenticated"]) {
                         echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
@@ -130,6 +119,5 @@ session_start();
                 ?>
             </div>
         </div>
-
     </body>
 </html>

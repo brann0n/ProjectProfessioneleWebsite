@@ -63,7 +63,7 @@ session_start();
                         Bij 'T Veenhoog leren we je de theorie en de praktijk kennen en we leiden je op tot een specialist in het systematisch ontwerpen van onder meer besturingstechnieken van robotgestuurde producten en machines.
                     </p>
                     
-                    <a href="inschrijvenAutomotive.php">
+                    <a href="inschrijvenMechatronica.php">
                         <div class="inschrijvenButton">	
                             <h3>Inshrijven Mechatronica</h3>
                         </div>

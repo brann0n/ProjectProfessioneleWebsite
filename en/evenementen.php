@@ -5,7 +5,7 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Opendagen</title>
+        <title>Events</title>
         <link rel="stylesheet" type="text/css" href="../nl/evenementen.css">
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="icon" href="../image/logo.png">
