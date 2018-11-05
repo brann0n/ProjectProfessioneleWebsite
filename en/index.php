@@ -25,7 +25,6 @@ session_start();
                         <div id="navigate">
                             <ul>
                                 <li><a href="opleidingen.php"><div class="navButtons">Courses</div></a></li>
-                                <li><a href="inschrijven.php"><div class="navButtons">Enroll course</div></a></li>
 				<li><a href="opendagen.php"><div class="navButtons">Open days</div></a></li>
                                 <li><a href="evenementen.php"><div class="navButtons">Events</div></a></li>
                                 <li><a href="contact.php"><div class="navButtons">Contact</div></a></li>
