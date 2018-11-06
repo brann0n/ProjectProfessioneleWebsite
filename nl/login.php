@@ -109,10 +109,8 @@ if (isset($_POST["submit"])) {
                     <div class="navFooterCenter">
                         <ul>
                             <li class="footerTopElement">Onze partners:</li>
-                            <li><a href="">(text)</a></li>
-                            <li><a href="">(text)</a></li>
-                            <li><a href="">(text)</a></li>
-                            <li><a href="">(text)</a></li>
+                            <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
+                            <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
                     <div class="navFooterRight">
