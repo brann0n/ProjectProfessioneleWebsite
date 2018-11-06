@@ -45,6 +45,7 @@ if (isset($_POST["submit"])) {
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
+		<link rel="icon" href="../image/logo.png">
         <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
