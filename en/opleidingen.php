@@ -70,8 +70,8 @@ session_start();
                 <div class="navFooterLeft">
                     <ul>
                         <li class="footerTopElement">T' Veenhoog:</li>
-                        <li><a href="opleidingen.php">Cources</a></li>
-                        <li><a href="inschrijven.php">Enrol</a></li>
+                        <li><a href="opleidingen.php">Courses</a></li>
+                        <li><a href="inschrijven.php">Enroll course</a></li>
                         <li><a href="opendagen.php">Open days</a></li>
                         <li><a href="evenementen.php">Events</a></li>
                         <li><a href="contact.php">Contact</a></li>
