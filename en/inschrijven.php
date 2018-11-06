@@ -61,23 +61,23 @@ session_start();
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="inschrijven.php">Inschrijven</a></li>
-                            <li><a href="opendagen.php">Open dagen</a></li>
-                            <li><a href="evenementen.php">Evenementen</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
+                            <li><a href="inschrijven.php">Enroll course</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
+                            <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Onze partners:</li>
+                            <li class="footerTopElement">Our partners:</li>
                             <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Volgs ons:</li>
+                            <li class="footerTopElementSocial">Follow us:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
