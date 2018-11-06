@@ -6,6 +6,7 @@ session_start();
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+		<link rel="icon" href="../image/logo.png">
         <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
@@ -44,7 +45,7 @@ session_start();
                                 Automotive
                             </div>
                         </a>
-                        <a href="inschrijvenAutomotive.php">
+                        <a href="inschrijvenMechatronica.php">
                             <div class="mechatronica">
                                 Mechatronica
                             </div>		

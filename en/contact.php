@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="icon" href="../image/logo.png">
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		<link rel="stylesheet" type="text/css" href="contact.css">
 		<title>T' Veenhoog</title>
