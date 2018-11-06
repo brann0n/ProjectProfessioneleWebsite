@@ -25,7 +25,7 @@ session_start();
                 <div class="mainContent">
                     <div class="h2Title">
 
-                        <h2>Evenementen</h2></div><div class="distance">
+                        <h2>Events</h2></div><div class="distance">
                         <p>There are a number of events that everyone can participate in, below are a number of events that take place in the start period of the year. You can just walk in, there is no further payment to be made and you do not have to sign in, on the other hand, the food and drinks are not arranged (exexpt at the party's, drinks and food can be bought at the bar).
                         </p></div>
                     <?php
@@ -70,8 +70,8 @@ session_start();
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
                             <li><a href="opleidingen.php">Courses</a></li>
-                            <li><a href="inschrijven.php">enroll</a></li>
-                            <li><a href="opendagen.php">Open doors days</a></li>
+                            <li><a href="inschrijven.php">Enroll course</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
                             <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
