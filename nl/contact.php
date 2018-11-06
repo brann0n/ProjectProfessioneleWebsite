@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -46,7 +49,7 @@
 						Mail adres: <input type="text" name="email">
 						<textarea placeholder="Uw reactie"></textarea>
 						<input type="submit" name="submit" value="Verstuur">
-						<input type="reset" value="reset">
+						<input type="reset" value="Reset">
 					</form>
 				</div>
 				
@@ -87,22 +90,36 @@
 				</div>	
 			</div>
 			<div class="rightBlok">
-				<a href="index.php">
+				<a href="../nl/contact.php">
 					<div class="languageDutch">	
 						<h3>Nederlands</h3>
 					</div>
 				</a>
-				<a href="../en/index.php">
+				<a href="../en/contact.php">
 					<div class="languageEnglish">
 						<h3>English</h3>
 					</div>
 				</a>
-				<a href="signout.php">
-					<div class="loginRight">	
-						<h3>Login</h3>
-					</div>
-				</a>
+                <?php
+                // control login
+
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Log uit</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Log uit</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
 			</div>
 		</div>
+            
 	</body>
 </html>
