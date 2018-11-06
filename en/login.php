@@ -107,12 +107,12 @@ if (isset($_POST["submit"])) {
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="../nl/index.php">
+                <a href="../nl/login.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/login.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
