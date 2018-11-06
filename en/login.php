@@ -66,8 +66,8 @@ if (isset($_POST["submit"])) {
                     <!--This is the signin form-->
                     <div class="loginPageContent">
                         <form action="login.php" method="POST">
-                            <input type="text" placeholder="Uw gebruikersnaam" id="username" name="username" >
-                            <input type="password" placeholder="Uw wachtwoord" id="password" name="password" >
+                            <input type="text" placeholder="Username" id="username" name="username" >
+                            <input type="password" placeholder="Password" id="password" name="password" >
                             <label id="errorMessage"><?php echo $errorMessage; ?></label>
                             <input type="submit" name="submit" id="submit" value="Inloggen">
                         </form>
