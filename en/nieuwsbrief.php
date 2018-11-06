@@ -28,7 +28,7 @@ session_start();
                 <div class="mainContent">
                     <!-- Title -->
                     <div id="mainContentTitle">
-                        <h2>Het laatste nieuws</h2>
+                        <h2>Latest news</h2>
                     </div>
 
                     <!-- news automotive -->
@@ -99,7 +99,6 @@ session_start();
                                         'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
                                         'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
                                         'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-                                        'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
                                     );
                                     array_push($mechaFeed, $item);
                                 }
@@ -109,10 +108,8 @@ session_start();
                                         $title = str_replace(' & ', ' &amp: ', $mechaFeed[$x]['title']);
                                         $link = $mechaFeed[$x]['link'];
                                         $description = $mechaFeed[$x]['desc'];
-                                        $date = date('1 F d, Y', strtotime($mechaFeed[$x]['date']));
 
                                         echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
-                                        echo'<small><em>Posted on ' . $date . '</em></small></p>';
                                         echo'<p>' . $description . '</p>';
                                     }
                                 }
