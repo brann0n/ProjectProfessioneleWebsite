@@ -57,8 +57,8 @@ session_start();
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
                             <li><a href="opleidingen.php">Courses</a></li>
-                            <li><a href="inschrijven.php">enroll</a></li>
-                            <li><a href="opendagen.php">Open doors days</a></li>
+                            <li><a href="inschrijven.php">Enroll course</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
                             <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
@@ -72,7 +72,7 @@ session_start();
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Volgs ons:</li>
+                            <li class="footerTopElementSocial">Follow us:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
