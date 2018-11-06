@@ -45,7 +45,7 @@ session_start();
                                 Automotive
                             </div>
                         </a>
-                        <a href="inschrijvenAutomotive.php">
+                        <a href="inschrijvenMechatronica.php">
                             <div class="mechatronica">
                                 Mechatronica
                             </div>		
