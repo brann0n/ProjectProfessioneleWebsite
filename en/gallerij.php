@@ -1,49 +1,9 @@
 <?php
+// Start the session
 session_start();
-//init vars
-$username = "";
-$password = "";
-$usersArray = [
-    //user    pass   permlvl
-    ["admin", "admin1234", "0"],
-    ["developer", "@_d897", "1"],
-    ["user", "!49_09", "2"]
-];
-$errorMessage = "Enter your user credentials.";
-
-//check if the submit button was pressed and then fill the variables.
-if (isset($_POST["submit"])) {
-    $password = filter_input(INPUT_POST, 'password');
-    $username = filter_input(INPUT_POST, 'username');
-
-    //check if the username is found in the array, do this with a foreach.
-    foreach ($usersArray as $user) {
-        if ($user[0] == $username) {
-            //now check the password.
-            if ($user[1] == $password) {
-                //user is signed in.
-                $_SESSION["username"] = $username;
-                $_SESSION["password"] = $password;
-                $_SESSION["authenticated"] = true;
-                $errorMessage = "You are signed in. <a href='index.php'>to home page</a>";
-                header("Location: index.php");
-                break;
-            } else {
-                //password is wrong.
-                $_SESSION["authenticated"] = false;
-                $errorMessage = "Wrong password";
-                break;
-            }
-        } else {
-            //username is not known in the array.
-            $errorMessage = "Username does not exist.";
-            $_SESSION["authenticated"] = false;
-        }
-    }
-}
 ?>
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../style.css">
@@ -56,40 +16,56 @@ if (isset($_POST["submit"])) {
                 <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
             </div>
             <div class="mainBody">
-
                 <div class="mainHeader">
                     <div class="h1Title">
                         <h1>Technische Hogeschool 'T Veenhoog</h1>
                     </div>
                 </div>
                 <div class="mainContent">
-                    <!--This is the signin form-->
-                    <div class="loginPageContent">
+                    <div class='galleryContent'>
+                        <h2>Gallerij</h2>
+                        <p>On this page you can find digital content of our school</p>
+                        <div class='imageContainer'>
+                            <?php
+                            $dirname = "../uploads/";
+                            $images = glob($dirname . "*.*");
+
+                            foreach ($images as $image) {
+                                $path = $image;
+                                $type = pathinfo($path, PATHINFO_EXTENSION);
+                                $data = file_get_contents($path);
+                                $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
+
+                                echo '<a class="imageClickableLink" href="' . $base64 . '"><img class="imageClickable" src="' . $base64 . '" /></a>';
+                            }
+                            ?>
+                            <div style="clear:both;"></div>
+                        </div>
+                    </div>
+                    <div class='uploadImageSection'>
                         <?php
                         if (isset($_SESSION["authenticated"])) {
-                            if (!$_SESSION["authenticated"]) {
-                                echo "<form action=\"login.php\" method=\"POST\">";
-                                echo "<label id=\"errorMessage\">$errorMessage</label>";
-                                echo "<input type=\"text\" placeholder=\"Your username\" id=\"username\" name=\"username\" >";
-                                echo "<input type=\"password\" placeholder=\"Your password\" id=\"password\" name=\"password\" >";
-                                echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"SignIn\">";
-                                echo "</form>";
+                            if ($_SESSION["authenticated"]) {
+                                echo '<form action="upload_image_gallery.php" method="post" enctype="multipart/form-data">'
+                                . '         <p>Select image to upload:'
+                                . '             <input type="file" name="fileToUpload" id="fileToUpload">'
+                                . '             <input type="submit" value="Upload Image" name="submit">'
+                                . '         </p>'
+                                . '   </form>';
                             } else {
-                                echo "<h2>You are already signed in. </h2> <a href='index.php'>Go back to home</a>";
-                                echo "<br> Or click  <a href=\"signout.php\">here</a> to sign out";
+                                echo 'You have to be signed in to upload images <a id="signinBtn" href="login.php">Sign In</a>';
                             }
                         } else {
                             $_SESSION["authenticated"] = false;
-                            if (!$_SESSION["authenticated"]) {
-                                echo "<form action=\"login.php\" method=\"POST\">";
-                                echo "<label id=\"errorMessage\">$errorMessage</label>";
-                                echo "<input type=\"text\" placeholder=\"Your username\" id=\"username\" name=\"username\" >";
-                                echo "<input type=\"password\" placeholder=\"Your password\" id=\"password\" name=\"password\" >";
-                                echo "<input type=\"submit\" name=\"submit\" id=\"submit\" value=\"SignIn\">";
-                                echo "</form>";
+                            if ($_SESSION["authenticated"]) {
+                                echo '<form action="upload_image_gallery.php" method="post" enctype="multipart/form-data">'
+                                . '         <p>Select image to upload:'
+                                . '             <input type="file" name="fileToUpload" id="fileToUpload">'
+                                . '             <input type="submit" value="Upload Image" name="submit">'
+                                . '         </p>'
+                                . '   </form>';
                             } else {
-                                echo "<h2>You are already signed in. </h2> <a href='index.php'>Go back to home</a>";
-                                echo "<br> Or click  <a href=\"signout.php\">here</a> to sign out";
+                                echo 'You have to be signed in to upload images <a id="signinBtn" href="login.php">Sign In</a>';
                             }
                         }
                         ?>
@@ -129,16 +105,32 @@ if (isset($_POST["submit"])) {
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="login.php">
+                <a href="../nl/gallerij.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/login.php">
+                <a href="../en/gallerij.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
                 </a>
+                <?php
+                if (isset($_SESSION["authenticated"])) {
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                } else {
+                    $_SESSION["authenticated"] = false;
+                    if ($_SESSION["authenticated"]) {
+                        echo '<a href="signout.php"><div class="loginRight"><h3>Signout</h3></div></a>';
+                    } else {
+                        echo '<a href="login.php"><div class="loginRight"><h3>Login</h3></div></a>';
+                    }
+                }
+                ?>
             </div>
         </div>
     </body>

@@ -47,7 +47,7 @@ session_start();
                         if (isset($_SESSION["authenticated"])) {
                             if ($_SESSION["authenticated"]) {
                                 echo '<form action="upload_image_gallery.php" method="post" enctype="multipart/form-data">'
-                                . '         <p>Select image to upload:'
+                                . '         <p>Selecteer een afbeelding om te uploaden:'
                                 . '             <input type="file" name="fileToUpload" id="fileToUpload">'
                                 . '             <input type="submit" value="Upload Image" name="submit">'
                                 . '         </p>'
@@ -59,7 +59,7 @@ session_start();
                             $_SESSION["authenticated"] = false;
                             if ($_SESSION["authenticated"]) {
                                 echo '<form action="upload_image_gallery.php" method="post" enctype="multipart/form-data">'
-                                . '         <p>Select image to upload:'
+                                . '         <p>Selecteer een afbeelding om te uploaden:'
                                 . '             <input type="file" name="fileToUpload" id="fileToUpload">'
                                 . '             <input type="submit" value="Upload Image" name="submit">'
                                 . '         </p>'
@@ -105,12 +105,12 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="gallerij.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/gallerij.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
