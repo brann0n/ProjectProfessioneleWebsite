@@ -165,12 +165,12 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="index.php">
+                <a href="../nl/nieuwsbrief.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/index.php">
+                <a href="../en/nieuwsbrief.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>
