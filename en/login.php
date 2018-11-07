@@ -100,7 +100,6 @@ if (isset($_POST["submit"])) {
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
                             <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="inschrijven.php">Inschrijven</a></li>
                             <li><a href="opendagen.php">Open dagen</a></li>
                             <li><a href="evenementen.php">Evenementen</a></li>
                             <li><a href="contact.php">Contact</a></li>
