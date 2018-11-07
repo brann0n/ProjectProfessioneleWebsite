@@ -45,10 +45,9 @@ session_start();
 				</div>
 				<div id="form">
 					<h3>Zijn er nog vragen? Mail ons direct!</h3>
-					<form action="mailto:support@tveenhoog.com" method="POST">
-						Mail adres: <input type="text" name="email">
-						<textarea placeholder="Uw reactie"></textarea>
-						<input type="submit" name="submit" value="Verstuur">
+					<form action="mailto:support@tveenhoog.com" method="POST" enctype="text/plain">
+						<textarea name="reactie" placeholder="Uw reactie"></textarea>
+						<input type="submit" value="Verstuur">
 						<input type="reset" value="Reset">
 					</form>
 				</div>
