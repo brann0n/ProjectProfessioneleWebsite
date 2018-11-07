@@ -3,8 +3,8 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html lang="nl">
-    <link rel="icon" href="../image/logo.png" head>
+<html lang="en">
+    <link rel="icon" href="../image/logo.png">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <title>T' Veenhoog</title>
@@ -12,7 +12,7 @@ session_start();
 <body>
     <div class="centering">
         <div class="logo">
-            <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../image/logo.png" alt="logo"></a>
         </div>
 
 

@@ -6,14 +6,14 @@ session_start();
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-		<link rel="icon" href="../image/logo.png" head>
+		<link rel="icon" href="../image/logo.png">
         <link rel="stylesheet" type="text/css" href="../style.css">
         <title>T' Veenhoog</title>
     </head>
     <body>
         <div class="centering">
             <div class="logo">
-                <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
+                <a href="index.php"><img src="../image/logo.png" alt="logo"></a>
             </div>
             <div class="mainBody">
                 <div class="mainHeader">
