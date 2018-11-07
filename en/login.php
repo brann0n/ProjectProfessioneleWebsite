@@ -99,9 +99,9 @@ if (isset($_POST["submit"])) {
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="opendagen.php">Open dagen</a></li>
-                            <li><a href="evenementen.php">Evenementen</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
+                            <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
@@ -128,7 +128,7 @@ if (isset($_POST["submit"])) {
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="login.php">
+                <a href="../nl/login.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
