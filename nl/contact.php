@@ -40,12 +40,12 @@ session_start();
 					<ul>
 						<li><b>Contactgegevens:</b></li>
 						<li>088 1884444 </li>
-						<li><a href="mailto: support@tveenhoog.com">support@tveenhoog.com</a></li>
+						<li><a href="mailto:support@tveenhoog.com">support@tveenhoog.com</a></li>
 					</ul>
 				</div>
 				<div id="form">
 					<h3>Zijn er nog vragen? Mail ons direct!</h3>
-					<form action="mailto: support@tveenhoog.com" method="POST">
+					<form action="mailto:support@tveenhoog.com" method="POST">
 						Mail adres: <input type="text" name="email">
 						<textarea placeholder="Uw reactie"></textarea>
 						<input type="submit" name="submit" value="Verstuur">
@@ -61,7 +61,6 @@ session_start();
 						<ul>
 							<li class="footerTopElement">T' Veenhoog:</li>
 							<li><a href="opleidingen.php">Opleidingen</a></li>
-							<li><a href="inschrijven.php">Inschrijven</a></li>
 							<li><a href="opendagen.php">Open dagen</a></li>
 							<li><a href="evenementen.php">Evenementen</a></li>
 							<li><a href="contact.php">Contact</a></li>
