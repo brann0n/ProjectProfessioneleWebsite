@@ -76,7 +76,7 @@ session_start();
 
                         if (!isset($_POST['allAutoNews'])) {
                             echo '<form action="" method="POST">
-                                    <input name="allAutoNews" type="submit" value="Read more"/>
+                                    <input class="readMoreButton" name="allAutoNews" type="submit" value="Read more"/>
                                 </form>';
                         }
                         ?>
@@ -85,7 +85,7 @@ session_start();
                     <!-- news mechatronica -->
                     <div id="newsMechatronica">
                         <div id="mechatronicaBox">
-                            <h3>Mechatronica&GT;</h3>
+                            <h3>Mechatronics&GT;</h3>
                         </div>
                         <div id="feedMecha">
                             <?php
@@ -124,7 +124,7 @@ session_start();
 
                                 if (!isset($_POST['allMechaNews'])) {
                                     echo '<form action="" method="POST">
-                                        <input name="allMechaNews" type="submit" value="Read more"/>
+                                        <input class="readMoreButton" name="allMechaNews" type="submit" value="Read more"/>
                                     </form>';
                                 }
                             ?>
@@ -136,22 +136,23 @@ session_start();
                     <div class="navFooterLeft">
                         <ul>
                             <li class="footerTopElement">T' Veenhoog:</li>
-                            <li><a href="opleidingen.php">Opleidingen</a></li>
-                            <li><a href="opendagen.php">Open dagen</a></li>
-                            <li><a href="evenementen.php">Evenementen</a></li>
+                            <li><a href="opleidingen.php">Courses</a></li>
+                            <li><a href="inschrijven.php">Enroll course</a></li>
+                            <li><a href="opendagen.php">Open days</a></li>
+                            <li><a href="evenementen.php">Events</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="navFooterCenter">
                         <ul>
-                            <li class="footerTopElement">Onze partners:</li>
-							<li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
+                            <li class="footerTopElement">Our partners:</li>
+                            <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
                     <div class="navFooterRight">
                         <ul>
-                            <li class="footerTopElementSocial">Volgs ons:</li>
+                            <li class="footerTopElementSocial">Follow us:</li>
                             <li><a href="https://www.facebook.com/"><img src="../image/facebook.png" alt="Facebook"/></a>
                                 <a href="https://twitter.com/"><img src="../image/twitter.png" alt="Twitter"/></a>
                                 <a href="https://youtube.com/"><img src="../image/youtube.png" alt="Youtube"/></a>
@@ -170,7 +171,7 @@ session_start();
                         <h3>Nederlands</h3>
                     </div>
                 </a>
-                <a href="../en/nieuwsbrief.php">
+                <a href="nieuwsbrief.php">
                     <div class="languageEnglish">
                         <h3>English</h3>
                     </div>

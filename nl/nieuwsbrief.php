@@ -8,7 +8,7 @@ session_start();
         <meta charset="UTF-8">
 		<link rel="icon" href="../image/logo.png" head>
         <link rel="stylesheet" type="text/css" href="../style.css">
-        <link rel="stylesheet" type="text/css" href="nieuwsbrief.css">
+        <link rel="stylesheet" type="text/css" href="../en/nieuwsbrief.css">
         <title>T' Veenhoog</title>
         <link rel="icon" href="../image/logo.png">
     </head>
@@ -28,7 +28,7 @@ session_start();
                 <div class="mainContent">
                     <!-- Title -->
                     <div id="mainContentTitle">
-                        <h2>Het laatste nieuws</h2>
+                        <h2>Laatste nieuws</h2>
                     </div>
 
                     <!-- news automotive -->
@@ -76,7 +76,7 @@ session_start();
 
                         if (!isset($_POST['allAutoNews'])) {
                             echo '<form action="" method="POST">
-                                    <input name="allAutoNews" type="submit" value="Read more"/>
+                                    <input class="readMoreButton" name="allAutoNews" type="submit" value="Read more"/>
                                 </form>';
                         }
                         ?>
@@ -99,7 +99,6 @@ session_start();
                                         'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
                                         'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
                                         'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-                                        'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
                                     );
                                     array_push($mechaFeed, $item);
                                 }
@@ -109,10 +108,8 @@ session_start();
                                         $title = str_replace(' & ', ' &amp: ', $mechaFeed[$x]['title']);
                                         $link = $mechaFeed[$x]['link'];
                                         $description = $mechaFeed[$x]['desc'];
-                                        $date = date('1 F d, Y', strtotime($mechaFeed[$x]['date']));
 
                                         echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
-                                        echo'<small><em>Posted on ' . $date . '</em></small></p>';
                                         echo'<p>' . $description . '</p>';
                                     }
                                 }
@@ -127,7 +124,7 @@ session_start();
 
                                 if (!isset($_POST['allMechaNews'])) {
                                     echo '<form action="" method="POST">
-                                        <input name="allMechaNews" type="submit" value="Read more"/>
+                                        <input class="readMoreButton" name="allMechaNews" type="submit" value="Read more"/>
                                     </form>';
                                 }
                             ?>
@@ -148,7 +145,7 @@ session_start();
                     <div class="navFooterCenter">
                         <ul>
                             <li class="footerTopElement">Onze partners:</li>
-							<li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
+                            <li><a href="https://www.nhlstenden.com/">NHL Stenden</a></li>
                             <li><a href="https://www.drenthecollege.nl/">Drenthe College</a></li>
                         </ul>
                     </div>
@@ -168,7 +165,7 @@ session_start();
                 </div>	
             </div>
             <div class="rightBlok">
-                <a href="../nl/nieuwsbrief.php">
+                <a href="nieuwsbrief.php">
                     <div class="languageDutch">	
                         <h3>Nederlands</h3>
                     </div>
