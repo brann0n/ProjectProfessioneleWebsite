@@ -6,7 +6,6 @@ session_start();
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-		<link rel="icon" href="../image/logo.png" head>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="stylesheet" type="text/css" href="../en/nieuwsbrief.css">
         <title>T' Veenhoog</title>
@@ -60,8 +59,8 @@ session_start();
                                 $description = $autoFeed[$x]['desc'];
                                 $date = date('1 F d, Y', strtotime($autoFeed[$x]['date']));
 
-                                echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
-                                echo'<small><em>Posted on ' . $date . '</em></small></p>';
+                                echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong><br>';
+                                echo'<p><small><em>Posted on ' . $date . '</em></small></p>';
                                 echo'<p>' . $description . '</p>';
                             }
                         }
@@ -75,8 +74,8 @@ session_start();
                         }
 
                         if (!isset($_POST['allAutoNews'])) {
-                            echo '<form action="" method="POST">
-                                    <input class="readMoreButton" name="allAutoNews" type="submit" value="Read more"/>
+                            echo '<form action="nieuwsbrief.php" method="POST">
+                                    <input class="readMoreButton" name="allAutoNews" type="submit" value="Read more">
                                 </form>';
                         }
                         ?>
@@ -109,7 +108,7 @@ session_start();
                                         $link = $mechaFeed[$x]['link'];
                                         $description = $mechaFeed[$x]['desc'];
 
-                                        echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
+                                        echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong><br>';
                                         echo'<p>' . $description . '</p>';
                                     }
                                 }
@@ -123,8 +122,8 @@ session_start();
                                 }
 
                                 if (!isset($_POST['allMechaNews'])) {
-                                    echo '<form action="" method="POST">
-                                        <input class="readMoreButton" name="allMechaNews" type="submit" value="Read more"/>
+                                    echo '<form action="nieuwsbrief.php" method="POST">
+                                        <input class="readMoreButton" name="allMechaNews" type="submit" value="Read more">
                                     </form>';
                                 }
                             ?>

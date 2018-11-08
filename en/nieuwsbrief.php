@@ -6,7 +6,6 @@ session_start();
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-		<link rel="icon" href="../image/logo.png" head>
         <link rel="stylesheet" type="text/css" href="../style.css">
         <link rel="stylesheet" type="text/css" href="nieuwsbrief.css">
         <title>T' Veenhoog</title>
@@ -15,7 +14,7 @@ session_start();
     <body>
         <div class="centering">
             <div class="logo">
-                <a href="index.php"><img src="../image/logo.png" alt="logo" /></a>
+                <a href="index.php"><img src="../image/logo.png" alt="logo"></a>
             </div>
 
 
@@ -55,12 +54,12 @@ session_start();
 
                         function autoNewsLoop($autoFeed, $reach) {
                             for ($x = 0; $x < $reach; $x++) {
-                                $title = str_replace(' & ', ' &amp: ', $autoFeed[$x]['title']);
+                                $title = str_replace(' & ', ' &amp; ', $autoFeed[$x]['title']);
                                 $link = $autoFeed[$x]['link'];
                                 $description = $autoFeed[$x]['desc'];
                                 $date = date('1 F d, Y', strtotime($autoFeed[$x]['date']));
 
-                                echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
+                                echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong><br>';
                                 echo'<small><em>Posted on ' . $date . '</em></small></p>';
                                 echo'<p>' . $description . '</p>';
                             }
@@ -75,7 +74,7 @@ session_start();
                         }
 
                         if (!isset($_POST['allAutoNews'])) {
-                            echo '<form action="" method="POST">
+                            echo '<form action="nieuwsbrief.php" method="POST">
                                     <input class="readMoreButton" name="allAutoNews" type="submit" value="Read more"/>
                                 </form>';
                         }
@@ -89,44 +88,44 @@ session_start();
                         </div>
                         <div id="feedMecha">
                             <?php
-                                $mechaRss = new DOMDocument();
-                                $mechaRss->load('https://www.utwente.nl/en/news.rss');
+                            $mechaRss = new DOMDocument();
+                            $mechaRss->load('https://www.utwente.nl/en/news.rss');
 
-                                $mechaFeed = array();
+                            $mechaFeed = array();
 
-                                foreach ($mechaRss->getElementsByTagName('item') as $node) {
-                                    $item = array(
-                                        'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-                                        'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-                                        'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-                                    );
-                                    array_push($mechaFeed, $item);
+                            foreach ($mechaRss->getElementsByTagName('item') as $node) {
+                                $item = array(
+                                    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+                                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+                                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+                                );
+                                array_push($mechaFeed, $item);
+                            }
+
+                            function mechaNewsLoop($mechaFeed, $reach) {
+                                for ($x = 0; $x < $reach; $x++) {
+                                    $title = str_replace(' & ', ' &amp; ', $mechaFeed[$x]['title']);
+                                    $link = $mechaFeed[$x]['link'];
+                                    $description = $mechaFeed[$x]['desc'];
+
+                                    echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '></a></strong><br>';
+                                    echo'<p>' . $description . '</p>';
                                 }
+                            }
 
-                                function mechaNewsLoop($mechaFeed, $reach) {
-                                    for ($x = 0; $x < $reach; $x++) {
-                                        $title = str_replace(' & ', ' &amp: ', $mechaFeed[$x]['title']);
-                                        $link = $mechaFeed[$x]['link'];
-                                        $description = $mechaFeed[$x]['desc'];
+                            if (isset($_POST['allMechaNews'])) {
+                                // Print all news items!
+                                mechaNewsLoop($mechaFeed, 5);
+                            } else {
+                                // Print single news item.
+                                mechaNewsLoop($mechaFeed, 1);
+                            }
 
-                                        echo'<p><strong><a href="' . $link . '" title="' . $title . '">' . $title . '</a></strong<br />';
-                                        echo'<p>' . $description . '</p>';
-                                    }
-                                }
-
-                                if (isset($_POST['allMechaNews'])) {
-                                    // Print all news items!
-                                    mechaNewsLoop($mechaFeed, 5);
-                                } else {
-                                    // Print single news item.
-                                    mechaNewsLoop($mechaFeed, 1);
-                                }
-
-                                if (!isset($_POST['allMechaNews'])) {
-                                    echo '<form action="" method="POST">
+                            if (!isset($_POST['allMechaNews'])) {
+                                echo '<form action="nieuwsbrief.php" method="POST">
                                         <input class="readMoreButton" name="allMechaNews" type="submit" value="Read more"/>
                                     </form>';
-                                }
+                            }
                             ?>
                         </div>
                     </div>
@@ -193,8 +192,6 @@ session_start();
                 }
                 ?>
             </div>
-        </a>
-    </div>
-</div>
-</body>
+        </div>
+    </body>
 </html>
