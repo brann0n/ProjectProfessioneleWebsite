@@ -29,14 +29,14 @@ session_start();
 
                             <h2>Eerst checken</h2>
                             <ul>
-                                <li class="checken">&#10004; Voldoe je aan alle toelatingseisen? Heb je het benodigde diploma en profiel wanneer je met de opleiding &nbsp&nbsp&nbsp begint? Moet je misschien nog een toelatingsexamen doen? 
+                                <li class="checken">&#10004; Voldoe je aan alle toelatingseisen? Heb je het benodigde diploma en profiel wanneer je met de opleiding begint? Moet je misschien nog een toelatingsexamen doen? 
                                     Check het voor de zekerheid.</li>
                                 <li class="checken">&#10004; Heb je een DigiD? <a id="digid" href="https://digid.nl/aanvragen">Vraag hem anders direct aan!</a></li>                                
                             </ul>
                             <h2>Inschrijven werkt zo</h2>
                             <?php
                             $tellen = 1;
-                            $stappen = array("Maak een account aan. Je krijgt een persoonlijke Studielinkpagina.", "Vul hier je opleidingsdetails in. Voor havo- en vwo-scholieren verschijnt hier het subkopje ‘Vakken’. Vul &nbsp&nbsp&nbsp&nbsp hier je vakkenpakket in.",
+                            $stappen = array("Maak een account aan. Je krijgt een persoonlijke Studielinkpagina.", "Vul hier je opleidingsdetails in. Voor havo- en vwo-scholieren verschijnt hier het subkopje ‘Vakken’. Vul hier je vakkenpakket in.",
                                                 "Kies voor ‘Mijn opleidingen/ Nieuwe inschrijving’ toevoegen:", "Selecteer de opleiding van jouw keuze. Je vindt de opleiding onder de officiële naam <b>Automotive</b>.", "Bevestig de opleiding.",
                                                 "Geef onder het kopje Instroommoment aan wanneer je met de opleiding wilt beginnen. Bevestig dit.", "Bevestig je inschrijving.",
                                                 "Voer je betaalgegevens in en bevestig deze. Dit kun je ook later doen, als het maar vóór je inschrijving &nbsp&nbsp&nbsp&nbsp is.", "Volg de status van je inschrijving op je persoonlijke Studielinkpagina.");

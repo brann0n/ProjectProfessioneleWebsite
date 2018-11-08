@@ -37,7 +37,7 @@ session_start();
                         <?php
                         $tellen = 1;
                         $stappen = array("Create an account. You will receive a personal Studielink page.", "Enter your course details here. For HAVO and VWO pupils, the sub-heading 'Courses' appears here.
-                                            Enter &nbsp&nbsp&nbsp&nbsp your course package here.", "Choose 'Add My Training / New Registration':", "Select the course of your choice. You will find the study under the official name <b>Mechatronics.</b>",
+                                            Enter your course package here.", "Choose 'Add My Training / New Registration':", "Select the course of your choice. You will find the study under the official name <b>Mechatronics.</b>",
                                             "Confirm the study", "Under the Inflow moment heading, indicate when you want to start the study. Confirm this.", "Confirm your registration.", "Enter your payment details and confirm.
                                             You can also do this later, if only before your registration.", "Follow the status of your registration on your personal Studielink page.");
                         foreach ($stappen as $stap) {
