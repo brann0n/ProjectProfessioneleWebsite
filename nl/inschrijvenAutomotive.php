@@ -39,7 +39,7 @@ session_start();
                             $stappen = array("Maak een account aan. Je krijgt een persoonlijke Studielinkpagina.", "Vul hier je opleidingsdetails in. Voor havo- en vwo-scholieren verschijnt hier het subkopje ‘Vakken’. Vul hier je vakkenpakket in.",
                                                 "Kies voor ‘Mijn opleidingen/ Nieuwe inschrijving’ toevoegen:", "Selecteer de opleiding van jouw keuze. Je vindt de opleiding onder de officiële naam <b>Automotive</b>.", "Bevestig de opleiding.",
                                                 "Geef onder het kopje Instroommoment aan wanneer je met de opleiding wilt beginnen. Bevestig dit.", "Bevestig je inschrijving.",
-                                                "Voer je betaalgegevens in en bevestig deze. Dit kun je ook later doen, als het maar vóór je inschrijving &nbsp&nbsp&nbsp&nbsp is.", "Volg de status van je inschrijving op je persoonlijke Studielinkpagina.");
+                                                "Voer je betaalgegevens in en bevestig deze. Dit kun je ook later doen, als het maar vóór je inschrijving &nbsp;&nbsp;&nbsp;&nbsp; is.", "Volg de status van je inschrijving op je persoonlijke Studielinkpagina.");
                             foreach ($stappen as $stap) {
                                 echo '<p>' . $tellen . '. ' . $stap . '</p>';
                                 $tellen++;
